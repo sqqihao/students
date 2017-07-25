@@ -20,4 +20,4 @@
 
 # 1706
 [韩春宇](https://sqqihao.github.io/students/1706/韩春宇/index.html)
-[田林](https://sqqihao.github.io/students/1703/1706/田林/Chiaus/index.html)
+[田林](https://sqqihao.github.io/students/1706/田林/Chiaus/index.html)
