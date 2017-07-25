@@ -5,12 +5,12 @@
 # 1703
 [陈瑞锋](https://sqqihao.github.io/students/1703/1703-陈瑞锋/陈瑞锋/index.html)
 [戴金莹](https://sqqihao.github.io/students/1703/1703-戴金莹/lanyan/index3.html)
-[陈瑞锋](https://sqqihao.github.io/students/1703/1703-付超/index.html)
+[付超](https://sqqihao.github.io/students/1703/1703-付超/index.html)
 [阮利增](https://sqqihao.github.io/students/1703/1703-阮利增/index.html)
 # 1704
 [陈瑞锋](https://sqqihao.github.io/students/1704/郭家祥/index.html)
-[陈瑞锋](https://sqqihao.github.io/students/1704/林杰/林杰/1.首页/index.html)
-[陈瑞锋](https://sqqihao.github.io/students/1704/高佳欣-代码/main.html)
+[林杰](https://sqqihao.github.io/students/1704/林杰/林杰/1.首页/index.html)
+[高佳欣](https://sqqihao.github.io/students/1704/高佳欣-代码/main.html)
 
 # 1705
 [陈佩璇](https://sqqihao.github.io/students/1705/陈佩璇/1-index.html)
