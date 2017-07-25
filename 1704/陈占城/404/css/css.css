@@ -1,0 +1,141 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+a{text-decoration:none;
+	}
+li{list-style:none;
+	}
+/*侧边栏*/
+#arrow{
+	width:70px;
+	height:280px;
+	background-color:rgba(165,161,161,0.3);
+	position:fixed;
+	z-index:999;
+	right:0;
+	bottom:300px;
+	}
+.arrow1:hover{
+	background-color:#92a525;
+	}
+.arrow2:hover{
+	background-color:#92a525;
+	}
+.arrow3:hover{
+	background-color:#92a525;
+	}
+.arrow4:hover{
+	background-color:#92a525;
+	}
+.arrow1{
+	width:69px;
+	height:70px;
+	border-bottom:1px solid #6f6b6c;
+	}
+.arrow2{
+	width:69px;
+	height:70px;
+	border-bottom:1px solid #6f6b6c;
+	}
+.arrow3{
+	width:69px;
+	height:70px;
+	border-bottom:1px solid #6f6b6c;
+	}
+.arrow4{
+	width:69px;
+	height:70px;
+	}
+/*顶部导航*/
+#header{
+	width:1000px;
+	height:88px;
+	margin:0 auto;
+	}
+.logo{
+	float:left;
+	padding-top:15px;
+	}
+.nav{
+	float:right;
+	margin-top:20px;
+	}
+.li{
+	list-style:none;
+	font-size:20px;
+	font-family:"微软雅黑";
+	color:#000;
+	text-align:center;
+    }
+.li1{
+	float:right;
+	position:relative;
+	padding:15px;
+	color:#000;
+	text-align:center;
+	list-style:none;
+    }
+.li1 ul{
+	position:absolute;
+	text-align:center;
+	top:50px;
+	display:none;
+    }
+.li1 span a{
+	padding:13px;
+    }
+.li1:hover span a{
+	color:white;
+	cursor:pointer;
+	background:#93a625;
+	z-index:999;
+    }
+.li1:hover ul{
+	display:block;
+	z-index:999;
+    }
+.li1 ul li{
+	color:#fff;
+	font-family:"微软雅黑";
+	font-size:16px;
+	line-height:50px;
+	background-color:#fff;
+	width:90px;
+	margin:0 auto;
+    }
+.li1 ul li:hover a{
+	background:#93a625;
+	color:white;
+	cursor:pointer;
+	width:90px;
+	height:50px;
+	display:block;
+	z-index:999;
+    }
+.nav a{
+	color:#000;
+	}
+.li a{
+	margin-right:10px;
+	}
+/*banner区*/
+#banner{
+	height:827px;
+	background:url(../images/404.jpg) no-repeat center top;
+	}
+#text{
+	height:175px;
+	}
+#text a{
+	color:#3d4500;
+	}
+.text1{
+	font-size:50px;
+	font-family:"方正硬笔楷书简体";
+	text-align:center;
+	}
+.text2{
+	font-size:20px;
+	font-family:"arial";
+	text-align:center;
+	}
+

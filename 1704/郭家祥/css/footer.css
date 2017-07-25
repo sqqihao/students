@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+#footer{
+	height:324px;
+	background-color:#9d0000;
+}
+.footer_inner{
+	width:1200px;
+	height:261px;
+	margin:0 auto;
+	padding-top:63px;
+	position:relative;
+}
+.txt1{
+	width:201px;
+	float:left;
+}
+.txt1 h5{
+	font-size:12px;
+	font-family:"微软雅黑";
+	line-height:32px;
+	width:54px;
+	height:32px;
+	border-bottom:1px solid #fff;
+	color:#fff;
+}
+.txt1 li{
+	font-size:12px;
+	font-family:"微软雅黑";
+	line-height:36px;
+	width:54px;
+	color:#fff;
+}
+.txt1 a{
+	color:#fff;
+}
+.icon{
+	float:left;
+	width:187px;
+	margin-left:8px;
+	font-size:12px;
+	font-family:arial,"微软雅黑";
+	line-height:57px;
+	color:#fff;
+	margin-top:9px;
+}
+.footer_inner a:hover{
+	text-decoration:underline;
+}
+.goToTop{
+	position:absolute;
+	left:579px;
+	bottom:302px;
+}

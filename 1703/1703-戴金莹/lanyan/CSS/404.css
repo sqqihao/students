@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	marging: 0;
+	padding: 0;  
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+#inner{
+	width:1368px;
+	height:900px;
+	margin:0 auto;
+	}
+.left{
+	float:left;
+	}	
+.left_top{
+	width:1004px;
+	height:206px;
+	background:url(../images/404_06.jpg);
+	margin-top:300px;
+	}
+.left_bot{
+	width:1004px;
+	height:40px;
+	border:1px #666666 solid;
+	line-height:40px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:18px;
+	margin-top:20px;
+	}	
+.left_bot a{
+	color:#666
+	}
+.left_bot a:hover{
+	color:#C00;
+	}		
+.right{
+	width:272px;
+	height:566px;
+	background:url(../images/404_03.jpg);
+	float:right;
+	margin-top:160px;
+	}	

@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>地理位置</title>
+<link href="css/dlwz.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+<!--header区域-->
+<div id="header">
+	<div class="header_inner">
+		<div class="logo"><a href="#"><img src="images/logo_02.jpg"/></a></div>
+        <nav>
+  <ul>
+    <li><a href="index.html" data-hover="首页">首页</a></li>
+    <li><a href="gywm.html" data-hover="关于我们">关于我们</a></li>
+    <li><a href="vip.html" data-hover="会员中心">会员中心</a></li>
+    <li><a href="cjfw.html" data-hover="承接服务">承接服务</a></li>
+    <li><a href="404.html" data-hover="酒店设施">酒店设施</a></li>
+    <li><a class="current" href="dlwz.html" data-hover="联系我们">联系我们</a></li>
+  </ul>
+</nav>
+        <div class="dl"><a href="#">登录</a>/<a href="#">注册</a></div>
+    </div>
+</div>
+
+<!--banner区域-->
+<div id="banner"></div>
+
+<!--面包屑区域-->
+<div id="mbx">
+	<div class="mbx_tet"><a href="#">首页</a> > <a href="#">联系我们</a></div>
+    <div class="mbx_xt"></div>
+</div>
+
+<!--main区域-->
+<div id="main">
+	<div class="top">
+    	<div class="wz_bt"><img src="images/wz_bt_05.jpg"/></div>
+        <div class="dt">
+        	<!--百度地图容器-->
+			<div style="width:1200px;height:385px;border:#ccc solid 1px;" id="dituContent"></div>
+        </div>
+    </div>
+    <div class="bot">
+    	<div class="hj_bt"><img src="images/hj_bt_09.jpg"/></div>
+        <div class="txt">
+            <p>酒店地址：思明区洪莲中路607-609号(都市新巢小区旁)</p>
+            <p>邮政编码：361008</p>
+            <p>地理环境：酒店地处厦门市思明区洪莲中路的繁华中心地段，位于都市新巢旁，地理位置优越，出行交通便利。</p>
+            <ul class="ul">
+            	<li>- 距离厦门火车站约6.6公里；</li>
+                <li>- 距离厦门梧村长途汽车站约7公里；</li>
+                <li>- 距离厦门轮渡约11.4公里；</li>
+                <li>- 距离厦门高崎国际机场约7公里。</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--footer区域-->
+<div id="footer">
+	<div class="footer_inner">
+   		<div class="footer_nav">
+       	<div class="footer_nav_sy"><a href="#">首页</a></div>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">关于我们</a></li>
+            	  <li><a href="#">公司简介</a></li>
+            	  <li><a href="#">企业文化</a></li>
+            	  <li><a href="#">酒店周边</a></li>
+            	  <li><a href="#">我们的优势</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">承接服务</a></li>
+            	  <li><a href="#">客房</a></li>
+            	  <li><a href="#">宴席</a></li>
+            	  <li><a href="#">会议</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">酒店设施</a></li>
+            	  <li><a href="#">泳池</a></li>
+            	  <li><a href="#">酒吧</a></li>
+            	  <li><a href="#">巴黎餐厅</a></li>
+            	  <li><a href="#">咖啡厅</a></li>
+                  <li><a href="#">棋牌室</a></li>
+                  <li><a href="#">足疗</a></li>
+                  <li><a href="#">儿童乐园</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">联系我们</a></li>
+            	  <li><a href="#">加入我们</a></li>
+            	  <li><a href="#">意见反馈</a></li>
+            	  <li><a href="#">地理位置</a></li>
+            	  <li><a href="#">点评问答</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">会员中心</a></li>
+            	  <li><a href="#">加入会员</a></li>
+            	  <li><a href="#">会员权益</a></li>
+            	  <li><a href="#">会员级别</a></li>
+          </ul>
+        </div>
+        <div class="footer_dhdi">
+        	<div class="dihua">400-622-3066</div>
+            <div class="dizhi">地址：思明区洪莲中路607-609号</div>
+        </div>
+        <div class="footer_bq">邮编：246788   传真：021-23515332<br />© 2010-2017 厦门金巴兰有限公司 版权所有  闽ICP备05022243号-1</div>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(118.172189,24.485418);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"",content:"我的备注",point:"118.170945|24.485673",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+		 ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+
+</html>

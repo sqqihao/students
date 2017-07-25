@@ -1,0 +1,216 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+<!--这里是header区域开始-->
+<div id="header">
+	<div class="header_inner">
+		<div class="logo"><a href="#"><img src="images/logo_02.jpg"/></a></div>
+        <nav><!--导航栏开始-->
+        	<ul>
+            	<li><a class="current" href="index.html" data-hover="首页">首页</a></li>
+            	<li><a href="gywm.html" data-hover="关于我们">关于我们</a></li>
+            	<li><a href="vip.html" data-hover="会员中心">会员中心</a></li>
+            	<li><a href="cjfw.html" data-hover="承接服务">承接服务</a></li>
+            	<li><a href="404.html" data-hover="酒店设施">酒店设施</a></li>
+            	<li><a href="dlwz.html" data-hover="联系我们">联系我们</a></li>
+        	</ul>
+		</nav><!--导航栏结束-->
+        <div class="dl"><a href="#">登录</a>/<a href="#">注册</a></div>
+    </div>
+</div>
+<!--这里是header区域结束-->
+
+<!--这里是banner区域开始-->
+<div id="banner">
+	<div class="banner_jt"><a href="#"><img src="images/banner_1_03.jpg"/></a></div>
+</div>
+<!--这里是banner区域结束-->
+
+<!--这里是main区域开始-->
+<div id="main">
+	<div class="inner_1"><!--酒店房型区块-->
+    	<div class="inner_1_bt"><img src="images/bt1_07.jpg"/></div>
+        <div class="main_left">
+        	<div class="left_guang"></div>
+            <div class="left_hsk">
+            	<p>豪华套房&nbsp;&nbsp;￥999</p>
+                <div class="left_yd"><a href="#">立即预定</a></div>
+            </div>
+        </div>
+        <div class="main_top_1">
+        	<div class="top_1_1">
+            	<div class="fj_img"><img src="images/main_fj_03.jpg"/></div>
+                <div class="fj_hsk">
+                	<p>商务套房&nbsp;&nbsp;￥999</p>
+                    <div class="fj_yd"><a href="#">立即预定</a></div>
+                </div>
+            </div>
+        	<div class="top_1_2">
+            	<div class="fj_img"><img src="images/main_ing_07.jpg"/></div>
+                <div class="fj_hsk">
+                	<p>蜜月套房&nbsp;&nbsp;￥999</p>
+                    <div class="fj_yd"><a href="#">立即预定</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="main_top_2">
+        	<div class="top_1_1">
+            	<div class="fj_img"><img src="images/main_fj_09.jpg"/></div>
+                <div class="fj_hsk">
+                	<p>亲子套房&nbsp;&nbsp;￥999</p>
+                    <div class="fj_yd"><a href="#">立即预定</a></div>
+                </div>
+            </div>
+        	<div class="top_1_2">
+            	<div class="fj_img"><img src="images/main_fj_10.jpg"/></div>
+                <div class="fj_hsk">
+                	<p>行政套房&nbsp;&nbsp;￥999</p>
+                    <div class="fj_yd"><a href="#">立即预定</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inner_2"><!--特色服务区块区块-->
+    	<div class="inner_2_bt"><img src="images/ts_03.jpg"/></div>
+    	<div class="inner_2_1">
+       		<div class="inner_2_1_1">
+				<div class="bh"><a href="#"><img src="images/ts_bs_03.jpg"/></a></div>
+   				<div class="yt"><a href="#"><img src="images/ts_img_17.jpg"/></a></div>
+			</div>
+        	<div class="inner_2_1_1">
+				<div class="bh"><a href="#"><img src="images/ts_bh_05.jpg"/></a></div>
+   				<div class="yt"><a href="#"><img src="images/ts_img_19.jpg"/></a></div>
+			</div>
+            <div class="inner_2_1_1">
+				<div class="bh"><a href="#"><img src="images/ts_bh_07.jpg"/></a></div>
+   				<div class="yt"><a href="#"><img src="images/ts_img_21.jpg"/></a></div>
+			</div>
+            <div class="inner_2_1_4">
+				<div class="bh"><a href="#"><img src="images/ts_bh_09.jpg"/></a></div>
+   				<div class="yt"><a href="#"><img src="images/ts_img_23.jpg"/></a></div>
+			</div>
+    	</div>
+    </div>
+    <div class="inner3"><!--地图导航区块-->
+    	<div class="inner3_bt"><img src="images/dt_tb_07.jpg"/></div>
+        <!--百度地图容器-->
+		<div style="width:1200px;height:538px;border:#ccc solid 1px;" id="dituContent"></div>
+    </div>
+</div>
+<!--这里是main区域结束-->
+
+<!--这里是footer区域开始-->
+<div id="footer">
+	<div class="footer_inner">
+   		<div class="footer_nav"><!--这里是底部导航开始-->
+       	<div class="footer_nav_sy"><a href="#">首页</a></div>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">关于我们</a></li>
+            	  <li><a href="#">公司简介</a></li>
+            	  <li><a href="#">企业文化</a></li>
+            	  <li><a href="#">酒店周边</a></li>
+            	  <li><a href="#">我们的优势</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">承接服务</a></li>
+            	  <li><a href="#">客房</a></li>
+            	  <li><a href="#">宴席</a></li>
+            	  <li><a href="#">会议</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">酒店设施</a></li>
+            	  <li><a href="#">泳池</a></li>
+            	  <li><a href="#">酒吧</a></li>
+            	  <li><a href="#">巴黎餐厅</a></li>
+            	  <li><a href="#">咖啡厅</a></li>
+                  <li><a href="#">棋牌室</a></li>
+                  <li><a href="#">足疗</a></li>
+                  <li><a href="#">儿童乐园</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">联系我们</a></li>
+            	  <li><a href="#">加入我们</a></li>
+            	  <li><a href="#">意见反馈</a></li>
+            	  <li><a href="#">地理位置</a></li>
+            	  <li><a href="#">点评问答</a></li>
+          </ul>
+          <ul class="footer_nav_1">
+            	  <li class="nav_1_1"><a href="#">会员中心</a></li>
+            	  <li><a href="#">加入会员</a></li>
+            	  <li><a href="#">会员权益</a></li>
+            	  <li><a href="#">会员级别</a></li>
+          </ul>
+        </div><!--这里是底部导航结束-->
+        <div class="footer_dhdi">
+        	<div class="dihua">400-622-3066</div>
+            <div class="dizhi">地址：思明区洪莲中路607-609号</div>
+        </div>
+        <div class="footer_bq">邮编：246788   传真：021-23515332<br />© 2010-2017 厦门金巴兰有限公司 版权所有  闽ICP备05022243号-1</div>
+    </div>
+</div>
+<!--这里是footer区域结束-->
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addRemark();//向地图中添加文字标注
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(118.172468,24.484596);//定义一个中心点坐标
+        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+//文字标注数组
+    var lbPoints = [{point:"118.172769|24.484152",content:""}
+		 ];
+    //向地图中添加文字标注函数
+    function addRemark(){
+        for(var i=0;i<lbPoints.length;i++){
+            var json = lbPoints[i];
+            var p1 = json.point.split("|")[0];
+            var p2 = json.point.split("|")[1];
+            var label = new BMap.Label("<div style='padding:2px;'>"+json.content+"</div>",{point:new BMap.Point(p1,p2),offset:new BMap.Size(3,-6)});
+            map.addOverlay(label);
+            label.setStyle({borderColor:"#999"});
+        }
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+
+</html>

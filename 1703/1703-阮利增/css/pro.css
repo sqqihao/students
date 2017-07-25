@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+#header{
+	height:189px;
+	}
+	.header_top{
+		height:136px;
+		background-color:#1e1e1e; 
+		}
+		.header_top_inner{
+			height:136px;
+			width:1200px;
+			margin:0 auto;
+			}
+			.header_top_inner img{
+				margin-top:40px;
+				margin-left:470px;
+				}
+			.header_top_inner p{
+				background:url(../images/header_xj_06.jpg) no-repeat 30px 9px;
+				float:right;
+				font-family:"宋体";
+				font-size:14px;
+				color:#d8d8d8;
+				margin-top:40px;
+				}
+			.header_top_inner p a{color:#d8d8d8;}
+	.header_bot{
+		height:50px;
+		width:1200px;
+		margin:0 auto;
+		border-bottom:3px solid #1e1e1e;
+		background:url(../images/header_jt_03.jpg) no-repeat 294px bottom;
+		}
+		.nav{
+			float:left;
+			margin-left:120px;
+			}
+			.navli{
+				float:left;
+				margin-left:50px;
+				font-size:20px;
+				font-family:"微软雅黑";
+				line-height:50px;
+				position:relative;
+				}
+				.nav2{
+					position:absolute;
+					left:0;
+					top:30px;
+					padding-top:26px;
+					}
+				.nav2li{
+					font-size:18px;
+					font-family:"微软雅黑";
+					line-height:30px;
+					display:none;
+					}
+				.navli:hover .nav2li{display:block;}
+				.navli a{
+					color:#656565;
+					}
+				.navli a:hover{
+					color:#ffac94;
+					}
+				.nav2li a{
+					color:#656565;
+					}
+				.nav2li a:hover{
+					color:#ffac94;
+					}
+				.navli .home{color:#1e1e1e;}
+		.header_search{
+			float:right;
+			margin-top:16px;
+			width:190px;
+			height:22px;
+			border:1px solid #a0a0a0;
+			border-radius:10px;
+			}
+			.search_input{
+				width:150px;
+				height:22px;
+				float:left;
+				border:none;
+				margin-left:10px;
+				font-size:10px;
+				font-family:"宋体";
+				line-height:22px;
+				color:#b8b8b8;
+				outline:none;
+				}
+			.search_point{
+				width:20px;
+				margin-right:10px;
+				height:22px;
+				float:right;
+				background-color:#fff;
+				background:#fff url(../images/search.png) no-repeat center center;
+				border:none;
+				cursor:pointer;
+				outline:none;
+				}
+#banner{
+	height:406px;
+	background:url(../images/banner2_02.jpg) no-repeat center center;
+	}
+#main{
+	height:1040px;
+	width:1200px;
+	margin:0 auto;
+	}
+	.main_nav{
+		width:80px;
+		height:260px;
+		float:left;
+		padding-top:100px;
+		}
+		.main_nav li a{
+			line-height:36px;
+			font-size:20px;
+			font-family:"微软雅黑";
+			color:#979798;
+			}
+		.main_nav li a:hover{
+			color:#ffac94;
+			}
+		.main_nav .main_nav_point{
+			border-bottom:1px solid #ffac94;
+			}
+		.main_nav .main_nav_point a{
+			color:#ffac94;
+			}
+	.main_pro{
+		width:1020px;
+		height:1040px;
+		float:right;
+		}
+		.main_pro_top{
+			height:360px;
+			padding-top:100px;
+			}
+			.main_pro_top_left{
+				float:left;
+				width:340px;
+				height:360px;
+				}
+				.main_img{
+					height:260px;
+					}
+				.main_txt{
+					height:100px;
+					}
+					.main_txt h3{
+						font-weight:normal;
+						font-size:18px;
+						font-family:"微软雅黑";
+						text-align:center;
+						line-height:30px;
+						color:#4a4949;
+						}
+					.main_txt p{
+						font-size:14px;
+						font-family:"微软雅黑";
+						text-align:center;
+						line-height:30px;
+						margin-bottom:16px;
+						color:#535050;
+						}
+					.main_txt_more{
+						width:108px;
+						height:24px;
+						margin:0 auto;
+						background-color:#ffac94;
+						text-align:center;
+						line-height:24px;
+						font-size:14px;
+						font-family:"宋体";
+						color:#fff;
+						}
+					.main_txt_more a{
+						color:#fff;
+						}
+#footer{
+	height:275px;
+	width:1200px;
+	margin:0 auto;
+	border-top:1px solid #bfbfbf;
+	}
+	#footer ul{
+		float:left;
+		margin-right:110px;
+		padding-top:42px;
+		}
+		#footer ul li{
+			line-height:24px;
+			font-size:14px;
+			font-family:"微软雅黑";
+			color:#747474;
+			}
+		#footer ul li a{
+			color:#747474;
+			}
+		#footer ul h4{
+			line-height:36px;
+			font-size:18px;
+			font-family:"微软雅黑";
+			color:#000;
+			font-weight:normal;
+			border-bottom:1px solid #c1c1c1;
+			}
+		#footer ul h4 a{
+			color:#000;
+			}
+	.footer_img{
+		padding-top:78px;
+		float:right;
+		}
+#copy{
+	height:46px;
+	background-color:#393939;
+	}
+	.copy_inner{
+		height:46px;
+		width:1200px;
+		margin:0 auto;
+		line-height:46px;
+		text-align:center;
+		font-family:"宋体";
+		font-size:12px;
+		color:#d1d1d1;
+		}
+	.copy_inner a{color:#d1d1d1;}
+#ToTop{
+	position:fixed;
+	right:30px;
+	bottom:60px;
+	}
+
+

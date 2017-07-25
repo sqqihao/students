@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner{
+	height:300px;
+	background:url(../images/banner_02.jpg) no-repeat center top;
+	}
+#main{
+	width:1200px;
+	height:1600px;
+	margin:0 auto;
+	}
+.content{
+	float:right;
+	padding-top:40px;
+	width:960px;
+	}
+/*产品列表*/
+.box{
+	margin-left:40px;
+	margin-bottom:60px;
+	float:left;
+	width:200px;
+	height:230px;
+	}
+.box_pic{
+	width:200px;
+	height:200px;
+	background-color:#f8f8f8;
+	}
+.box a{
+	display:block;
+	width:200px;
+	height:30px;
+	line-height:50px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#4b4d4e;
+	}
+/*交互*/
+.box:hover a{
+	color:#0099bd;
+	text-decoration:underline;
+	}
+.box:hover .box_pic{
+	background-color:#f7feff;
+	}
+/*换页*/
+.page{
+	margin-left:40px;
+	font-family:"宋体";
+	}
+.page_sel{
+	float:left;
+	margin-right:10px;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	color:#4b4d4e;
+	}
+.page_n{
+	float:left;
+	margin-right:10px;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	border:1px solid #f8f8f8;
+	color:#0099bd;
+	}
+.page_next{
+	float:left;
+	margin-right:10px;8
+	height:30px;
+	width:66px;
+	text-align:center;
+	line-height:30px;
+	border:1px solid #f8f8f8;
+	color:#0099bd;
+	}
+.page_n:hover{
+	border:1px solid #b3e0ef;
+	color:#b3e0ef;
+	}
+.page_next:hover{
+	border:1px solid #b3e0ef;
+	color:#b3e0ef;
+	}

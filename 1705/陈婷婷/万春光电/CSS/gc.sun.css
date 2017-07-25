@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+#go_top{
+	position:fixed;
+	right:50px;
+	bottom:50px;
+	}
+#header{
+	height:87px;
+	background-color:#219363;
+	}
+.header_inner{
+	width:1100px;
+	height:87px;
+	margin:0 auto;
+	}
+.logo{
+	float:left;
+	padding-top:27px;
+	}
+.nav{
+	width:862px;
+	height:92px;
+	float:right;
+	}
+.nav li{
+	float:left;
+	width:110px;
+	height:92px;
+	text-align:center;
+	line-height:92px;
+	position:relative;
+	}
+.nav li a{
+	color:#FFF;
+	font-size:18px;
+	font-family:"微软雅黑";
+	}
+.nav li .sub{
+	position:absolute;
+	left:0px;
+	top:80px;
+	display:none;
+	z-index:9999;
+	}
+.nav li .sub p{
+	width:110px;
+	height:20px;
+	text-align:center;
+	line-height:20px;
+
+	}
+.nav li .sub p a{
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#219363;
+
+	}
+.nav li .sub a:hover{
+	color:#09F;
+	
+	}
+.nav li:hover a{
+	width:110px;
+    background-color:#fff;
+	color:#219363;
+	display:block;
+	}
+.nav li:hover .sub{
+	width:110px;
+	background-color:#fff;
+	display:block;
+	}
+#banner{
+	height:358px;
+	background:url(../images/gongledanli_02.jpg) no-repeat top center;
+	position:relative;
+	}
+.banner_pic{
+	width:1903px;
+	height:358px;
+	background-color: rgba(0,0,0,0.5);
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+	transition:1s ease-out;
+	}
+/*display:block行转块；transform:rotate旋转（度deg）*/
+#banner:hover .banner_pic{
+	display:block;
+    }
+#main{
+	width:1100px;
+	height:1213px;
+	margin:0 auto;
+	}
+.main1{
+	width:209px;
+	height:169px;
+	float:left;
+	margin-top:75px;
+	}
+.sun a{
+	font-weight:bold;
+	 color:#fff;
+	}
+.main1 h3{
+	line-height:76px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	color:#414240;
+	}
+.main1 li a{
+	width:188px;
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	color:#209363;
+	display:block;
+	}
+.main1 li a:hover{
+	color:#fff;
+	background-color:#209363;
+	}
+.main2{
+	height:120px;
+	width:738px;
+	float:right;
+	}
+.main2_1{
+	height:120px;
+	width:159px;
+	float:right;
+	padding-top:26px;
+	padding-left:579px;
+	position:relative;
+	}
+.xt{
+	position: absolute;
+	right: -362px;
+	top: 130px;
+	}
+.main2_1 a{
+	float:left;
+	display:block;
+	}
+.main2_1 a p{
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#6d6b6b;
+	}
+.main2_1 a p:hover{
+	color:#209363;
+	}
+.main3{
+	width:738px;
+	height:1060px;
+	float:right;
+	}
+.main3_1{
+	width:738px;
+	height:273px;
+	margin-top:60px;
+	}
+.main3_1 img{
+	float:left;
+	}
+.main3_1 ul{
+	float:right;
+	padding-left:37px;
+	}
+.main3_1 ul h3{
+	color:#a0a09d;
+	font-size:16px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	line-height:41px;
+	padding-top:30px;
+	text-align:center;
+	}
+.main3_1 ul a{
+	color:#a0a09d;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:18px;
+	}
+.main3_2{
+	width:738px;
+	height:273px;
+	}
+.main3_2 img{
+	float:right;
+	}
+.main3_2 ul{
+	float:left;
+	padding-right:37px;
+	}
+.main3_2 ul h3{
+	color:#a0a09d;
+	font-size:16px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	line-height:41px;
+	padding-top:30px;
+	text-align:center;
+	}
+.main3_2 ul a{
+	color:#a0a09d;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:18px;
+	}
+.main3_3{
+	width:738px;
+	height:273px;
+	}
+.main3_3 img{
+	float:left;
+	}
+.main3_3 ul{
+	float:right;
+	padding-left:37px;
+	}
+.main3_3 ul h3{
+	color:#a0a09d;
+	font-size:16px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	line-height:41px;
+	padding-top:30px;
+	text-align:center;
+	}
+.main3_3 ul a{
+	color:#a0a09d;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:18px;
+	}
+.main3_4{
+	width:400px;
+	height:38px;
+	margin-left:201px;
+	margin-top:60px;
+	}
+.main3_4 ul{
+	float:left;
+	}
+.main3_4 ul li{
+	text-align:center;
+	font-size:16px;
+	font-family:"微软雅黑";
+	line-height:38px;
+	float:left;
+	margin-left:10px;
+	}
+.main3_4 a{
+	color:#fff;
+	display:block;
+	}
+.sy{
+	width:67px;
+	height:38px;
+	background:url(../images/tukuai_09.jpg) no-repeat left center;
+	}
+.sy:hover{
+	background:url(../images/tukuai_03.jpg) no-repeat left center;
+	}
+.one{
+	width:37px;
+	height:38px;
+	background:url(../images/tukuai_07.jpg) no-repeat left center;
+	}
+.one:hover{
+	background:url(../images/tukuai_05.jpg) no-repeat left center;
+	}
+.two{
+	width:37px;
+	height:38px;
+	background:url(../images/tukuai_05.jpg) no-repeat left center;
+	}
+.three{
+	width:37px;
+	height:38px;
+	background:url(../images/tukuai_07.jpg) no-repeat left center;
+	}
+.three:hover{
+	background:url(../images/tukuai_05.jpg) no-repeat left center;
+	}
+.xy{
+	width:67px;
+	height:38px;
+	background:url(../images/tukuai_09.jpg) no-repeat left center;
+	}
+.xy:hover{
+	background:url(../images/tukuai_03.jpg) no-repeat left center;
+	}
+.wy{
+	width:67px;
+	height:38px;
+	background:url(../images/tukuai_09.jpg) no-repeat left center;
+	}
+.wy:hover{
+	background:url(../images/tukuai_03.jpg) no-repeat left center;
+	}				
+#footer{
+	height:265px;
+	background-color:#f1f1f1;
+	}
+.footer_inner{
+	width:1100px;
+	height:265px;
+	margin:0 auto;
+	}
+.txt1{
+	float:left;
+	width:120px;
+	margin-top:96px;
+	margin-right:40px;
+	}
+.txt1 ul h3{
+	font-size:18px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	padding-bottom:11px;
+	}
+.txt1 ul h3 a{
+	color:#b6b6b6;
+	}
+.txt1 ul li{	
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:24px;
+	}
+.txt1 ul li a{
+	color:#b6b6b6;
+	}
+.txt1 ul li a:hover{
+	color:#209363;
+	}
+.txt2{
+	float:right;
+	width:120px;
+	margin-top:96px;
+	margin-right:16px;
+	}
+.txt2 p{
+	color:#717171;
+	font-size:12px;
+	font-family:"微软雅黑";
+	padding-top:30px;
+	}
+#copy{
+	line-height:76px;
+	background-color:#0c0c0c;
+	color:#fff;
+	font-size:12px;
+	font-family:"微软雅黑";
+	text-align:center;
+	}	
+

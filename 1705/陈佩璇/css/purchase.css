@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+#all{height:958px;background:url(../images/purchase-bg.jpg) no-repeat center bottom;}
+.all-inner{width:1200px;height:958px;margin:0 auto;}
+	.logo{margin-left:14px;margin-top:16px;}
+	.copy{font-size:14px;margin-top:860px;text-align:center;}
+	.main{width:600px;height:550px;float:right;margin-top:118px;font-family:"微软雅黑";}
+	.main h3{font-weight:normal;text-align:center;font-size:24px;color:#6b6868;line-height:80px;}
+	.text{
+		  width:348px;
+		  height:49px;
+		  margin-left:110px;
+		  padding-left:10px;
+		  border:none;
+		  background:url(../images/purchase-2_03.jpg) left top;
+		  }
+	.tex1{
+		  width:258px;
+		  height:49px;
+		  border:none;
+		  float:left;
+		  color:#999;
+		  background:url(../images/purchase-1_03.jpg) left top;
+		  padding-left:10px;
+		  margin-left:110px;
+		  margin-top:26px;
+		  }
+	.btn{
+		 width:90px;
+		 height:49px;
+		 background:url(../images/purchase-1_03.jpg) right top;
+		 border:none;
+		 float:left;
+		 cursor:pointer;
+		 margin-top:26px;
+		 }
+	.dl{
+		width:350px;
+		height:47px;
+		background:url(../images/purchase-3_08.jpg);
+		margin-top:26px;
+		margin-left:114px;
+		border:none;
+		}
+	.main-a{margin-left:210px;margin-top:26px;}
+	.main a{color:#00a0e9;cursor:pointer;}
+	.dsf{margin-top:112px;}
+	.iocns{width:86px;margin:0 auto;}
+

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */	
+	h3{line-height:23px;font-size:14px;padding-top:84px;color:#f04040;font-family:Arial," 微软雅黑";}
+	h4{line-height:19px;font-size:14px;padding-bottom:9px;border-bottom:1px #fac2c2 solid;color:#878787;font-family:Arial," 微软雅黑";}
+	p{font-size:12px;line-height:26px;font-family:Arial," 微软雅黑";}
+	
+	.pro{width:100px;height:26px;background:url(../images/index_00.png) no-repeat center top}
+
+
+	.nav_pro{border:1px #f04040 solid;border-radius:9px;}/* 当前所在页面导航栏样式 */
+	#banner{width:1920px;height:450px;margin:0 auto;border-top:1px #f04040 solid;background:url(../images/product_banner.jpg) no-repeat center center;}
+	
+	#main_inner{height:1650px;}
+	.content{height:1544px;width:1000px;float:right;}
+	.pro_1{height:306px;padding:0 0 80px 360px;border-top: 1px #d7d7d7 solid; background: url(../images/product_01.png) no-repeat left center;}
+	.pro_2{height:306px;padding:0 0 80px 360px;border-top: 1px #d7d7d7 solid; background: url(../images/product_02.png) no-repeat left center;}
+	.pro_3{height:306px;padding:0 0 80px 360px;border-top: 1px #d7d7d7 solid; background: url(../images/product_03.png) no-repeat left center;}
+	.pro_4{height:306px;padding:0 0 80px 360px;border-top: 1px #d7d7d7 solid; background: url(../images/product_04.png) no-repeat left center;}
+	
+	.soft{background: url(../images/../images/product_pro_01.png) no-repeat center top;}
+	.air{background: url(../images/../images/product_pro_02.png) no-repeat center top;}
+	.sleep{background: url(../images/../images/product_pro_03.png) no-repeat center top;}
+	.bacter{background: url(../images/../images/product_pro_04.png) no-repeat center top;}
+	.light{background: url(../images/../images/product_pro_05.png) no-repeat center top;}
+	.ico p{width:30px;padding-top:19px;text-align: center; margin-right:40px;display:inline-block;}
+	.pro_1 a,.pro_2 a,.pro_3 a,.pro_4 a{line-height:100px;float:right;color:#535353;}
+
+	.page {height:30px;float:right}
+	.page li{display: inline-block}
+	.page a{color:#535353;}

@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	}
+li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	display:block;
+}
+#header{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+	}
+.logo{
+	float:left;
+	margin-top:15px;
+	}
+.header_r{
+	margin-top:15px;
+	float:right;
+	height:25px;
+	}
+/*语言*/
+.language{
+	color:#4b4d4e;
+	float:right;
+	}
+.lang_cn{
+	display:inline;
+	font-family:"宋体";
+	font-size:12px;
+	font-weight:bold;
+	color:#4b4d4e;
+	}
+.lang_cn:hover{
+	color:#0099bd;
+	}
+.lang_en{
+	display:inline;
+	font-family:"宋体";
+	font-size:12px;
+	color:#4b4d4e;
+	}
+.lang_en:hover{
+	color:#0099bd;
+	}
+/*搜索*/
+.search{	
+	float:right;
+	margin-right:16px;
+	}
+.search_txt{	
+    border:0;
+	padding-left:10px;
+	height:20px;
+	width:156px;
+	border:2px solid #d7e2e6;
+	border-radius:4px 0px 0px 4px;
+	color:#a8a8a8;
+	}
+.search_btn{	
+    background:none;
+	border:none;
+	height:24px;
+	width:30px;
+	border-radius:0px 4px 4px 0px;
+	background:url(../images/search.png) no-repeat;
+	}
+.search_btn:hover{	
+	background:url(../images/search01.png) no-repeat;
+	}
+/*导航区块*/
+.nav{
+	padding-top:40px;
+	margin-left:180px;
+	height:20px;
+	line-height:20px;
+	}
+.nav li{
+	float:left;
+	margin-right:34px;
+	}
+.nav_sel{
+	border-bottom:4px solid #0099bd;
+	float:left;
+	margin-right:34px;
+	}
+.nav_sel:hover{
+	border:none;
+	}
+.nav li a{
+	color:#4b4d4e;
+	}
+.nav_title{
+	float:left;
+	color:#4b4d4e;
+	font-family:"微软雅黑";
+	text-align:center;
+	padding:10px;
+	}
+.nav_pro{
+	display:none;
+	height:200px;
+	width:84px;
+	background-color:#fff;
+	color:#4b4d4e;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:24px;
+	text-align:center;
+	}
+.nav_about{
+	display:none;
+	height:156px;
+	width:84px;
+	background-color:#fff;
+	color:#4b4d4e;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:24px;
+	text-align:center;
+	}
+.nav_information{
+	display:none;
+	height:108px;
+	width:84px;
+	background-color:#fff;
+	color:#4b4d4e;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:24px;
+	text-align:center;
+	}
+.nav_investor{
+	display:none;
+	height:60px;
+	width:84px;
+	background-color:#fff;
+	color:#4b4d4e;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:24px;
+	text-align:center;
+	}
+.nav_duty{
+	display:none;
+	height:84px;
+	width:84px;
+	background-color:#fff;
+	color:#4b4d4e;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:24px;
+	text-align:center;
+	}
+.nav_contact{
+	display:none;
+	height:60px;
+	width:84px;
+	background-color:#fff;
+	color:#4b4d4e;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:24px;
+	text-align:center;
+	}
+/*交互*/
+.nav li a:hover{
+	color:#0099bd;
+	}
+.nav li:hover div{
+	display:block;
+	}
+.nav li p:hover{
+	color:#0099bd;
+	font-size:14px;
+	}
+#footer{
+	height:350px;
+	background-color:#0099ba;
+	}
+.footer_top{
+	padding-top:54px;
+	width:1200px;
+	height:220px;
+	margin:0 auto;
+	}
+.footer_inner{
+	float:left;
+	margin-right:108px;
+	}
+/*底部链接*/
+.footer_inner a{
+	width:72px;
+	font-family:"宋体";
+	font-size:12px;
+	color:#f7feff;
+	text-align:center;
+	line-height:24px;
+	}
+.footer_inner a h4{
+	font-family:"宋体";
+	font-size:14px;
+	font-weight:normal;
+	color:#f7feff;
+	text-align:center;
+	}
+/*热线*/
+.footer_contact{
+	float:right;
+	}
+.footer_hotline{
+	font-family:"宋体";
+	font-size:12px;
+	color:#f7feff;
+	text-align:center;
+	}
+.tel{
+	font-family:Arial;
+	font-size:18px;
+	color:#84c225;
+	line-height:40px;
+	height:40px;
+	}
+/*小图标*/
+.footer_icons{
+    padding-top:10px;
+	}
+/*底部交互*/
+.footer_inner a:hover{
+	color:#ddd;
+	}
+.footer_inner h4:hover{
+	color:#ddd;
+	}
+.copy{
+	padding-top:20px;
+	margin:0 auto;
+	width:1200px;
+	font-family:"宋体";
+	font-size:12px;
+	color:#f7feff;
+	text-align:center;
+	line-height:18px;
+	}
+/*二级导航*/
+.subnav{
+	float:left;
+	width:240px;
+	}
+.subnav li{
+	height:50px;
+	margin-top:10px;
+	line-height:50px;
+	border:1px solid #eee;
+	}
+.subnav_n{
+	display:block;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#4b4d4e;
+	}
+.subnav_sel{
+	display:block;
+	text-align:center;
+	font-family:"微软雅黑";
+	border-left:4px solid #0099bd;
+	font-size:18px;
+	color:#0099bd;
+	}
+.subnav_n:hover{
+	color:#b3e0ef;
+	}

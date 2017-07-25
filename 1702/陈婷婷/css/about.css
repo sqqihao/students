@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner{
+	height:300px;
+	background:url(../images/banner_03.jpg) no-repeat center top;
+	}
+#main{
+	height:720px;
+	width:1200px;
+	margin:0 auto;
+	}
+.inner{
+	width:960px;
+	height:720px;
+	padding-top:20px;
+	float:right;
+	}
+.title{
+	font-family:"微软雅黑";
+	margin-bottom:30px;
+	margin-left:40px;
+	font-size:16px;
+	color:#0099bd;
+	height:40px;
+	line-height:40px;
+	border-bottom:2px solid #0099bd;
+	}
+.content{
+	height:320px;
+	}
+/*关于茶花*/
+.about_us{
+	margin-left:40px;
+	width:280px;
+	height:280px;
+	float:left;
+	}
+.about_pic{
+	height:160px;
+	text-align:center;
+	}
+.about_title{
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height:36px;
+	text-align:center;
+	}
+.about_txt{
+	font-family:"宋体";
+	padding-top:10px;
+	font-size:14px;
+	line-height:24px;
+	}
+/*合作伙伴*/
+.partner{
+	height:180px;
+	}
+.partner_txt{
+	width:760px;
+	margin:0 auto;
+	text-align:center;
+	font-family:"宋体";
+	font-size:14px;
+	line-height:24px;
+	}
+.partner_pics{
+	padding-top:40px;
+	height:100px;
+	width:960px;
+	position:relative;
+	}
+.pics{
+	float:left;
+	margin-left:40px;
+	width:200px;
+	text-align:center;
+	}
+.but_l{
+	height:38px;
+	width:32px;
+	position:absolute;
+	left:8px;
+	top:70px;
+	text-align:center;
+	padding-top:6px;
+	}
+.but_l:hover{
+	background-color:#f7feff;
+	}
+.but_r{
+	height:38px;
+	width:32px;
+	position:absolute;
+	right:-32px;
+	top:70px;
+	text-align:center;
+	padding-top:6px;
+	}
+.but_r:hover{
+	background-color:#f7feff;
+	}

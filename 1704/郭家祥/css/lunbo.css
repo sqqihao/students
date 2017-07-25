@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+#divSmallBox{
+	overflow:hidden;
+	*display:inline;
+	*zoom:1;
+	width:10px;
+	height:10px;
+	margin:0 5px;
+	border-radius:10px;
+	background:#ffffff;
+	}
+#playBox{
+	height:750px; 
+	margin:0 auto;
+	background:#333;
+	position:relative;
+	overflow:hidden;
+	}
+#playBox .oUlplay {
+	width:99999px;
+	position:absolute;
+	left:0;
+	top:0;
+	}
+#playBox .oUlplay li{
+	float:left;
+	}
+#playBox .pre{
+	cursor:pointer; 
+	width:53px;
+	height:88px;
+	background:url(../images/arrow1.png) no-repeat;
+	position:absolute;
+	top:330px;
+	left:300px;
+	z-index:10;
+	}
+#playBox .pre:hover{
+	background:url(../images/arrow3.png) no-repeat;
+	}
+#playBox .next{
+	cursor:pointer;
+	width:53px;
+	height:88px;
+	background:url(../images/arrow2.png) no-repeat;
+	position:absolute;
+	top:330px;
+	right:300px;
+	z-index:10;
+	}
+#playBox .next:hover{
+	background:url(../images/arrow4.png) no-repeat;
+	}
+#playBox .smalltitle {
+	width:1920px;
+	height:10px;
+	position:absolute;
+	bottom:24px;
+	z-index:10
+	}
+#playBox .smalltitle ul{
+	width:90px;
+	margin:0 auto;
+	}
+#playBox .smalltitle ul li{
+	width:18px;
+	height:18px;
+	margin:0 5px;
+	border-radius:10px;
+	background:#ffffff;
+	float:left;
+	overflow:hidden;
+	*display:inline;
+	*zoom:1;}
+#playBox .smalltitle .thistitle{
+	background:#9d0000;
+	}

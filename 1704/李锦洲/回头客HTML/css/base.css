@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+h1,h2,h3,h4,h5,h6,p{
+	cursor:default;
+}
+/*
+侧边栏
+*/
+#rightmenu{
+	height:160px;
+	width:98px;
+	position:fixed;
+	right:0;
+	bottom:0;
+}
+.rightmenu_item{
+	height:62px;
+	text-align:center;
+	background:#B21E12;
+	padding-top:18px;
+}
+/*
+头部导航
+*/
+#header{
+	height:128px;
+}
+.header_top{
+	width:1200px;
+	margin:0 auto;
+}
+.header_top_inner{
+	height:92px;
+}
+.logo{
+	float:left;
+	margin-top:12px;
+	margin-left:77px;
+}
+.header_right{
+	float:right;
+}
+.header_right p{
+	font-size:12px;
+	color:#bd7575;
+	line-height:12px;
+	float:right;
+}
+.header_right img{
+	margin-right:24px;
+}
+.jump_shop{
+	margin-right:14px;
+	margin-top:50px;
+}
+.header_nav_inner{
+  width:1200px;
+  margin:0 auto;
+}
+.header_nav{
+	height:36px;
+	background:#b21e12;
+}
+.header_nav_inner li{
+	width:200px;
+	text-align:center;
+	line-height:36px;
+	position:relative;
+}
+.header_nav_inner li a{
+	color:#FFFFFF;
+	font-size:18px;
+	width:200px;
+	display:block;
+}
+.li1{
+	float:left;
+}
+.li1:hover .go_menu{
+	display:block;
+	z-index:999;
+	background:#B21E12;
+}
+.home{
+	float:left;
+	position:relative;
+}
+.home:hover .go_menu{
+	display:block;
+	z-index:999;
+}
+.header_nav_inner .home a{
+	font-size:18px;
+	width:200px;
+	display:block;
+	color:#b21e12;
+	background:#FFFFFF;
+}
+.header_nav_inner li a:hover{
+	color:#b21e12;
+	background:#FFFFFF;
+}
+.go_menu{
+	position:absolute;
+	display:none;
+}
+.header_nav_inner .go_menu a:hover{
+	background: #fff;
+	color: #b21e12;
+}
+/*
+底部区域
+*/
+#footer{
+	height:166px;
+	background:#B21E12;
+}
+.footer_inner{
+	width:1200px;
+	margin:0 auto;
+}
+.footer_inner ul{
+	width:210px;
+	padding-top:22px;
+	float:left;
+}
+.footer_inner li{
+	text-align:center;
+	line-height:22px;
+}
+.footer_inner .ul_title{
+	font-size:14px;
+	color:#FFFFFF;
+}
+.footer_inner li a{
+	font-size:12px;
+	color:#FFFFFF;
+}
+.copyright{
+	float:right;
+	margin-top:22px;
+	font-size:12px;
+	color:#FFFFFF;
+	width:290px;
+}

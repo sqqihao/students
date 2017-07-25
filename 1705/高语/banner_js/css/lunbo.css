@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+*{ margin:0; padding:0; list-style:none;}
+#divSmallBox{overflow:hidden;*display:inline;*zoom:1;width:10px;height:10px;margin:0 5px;border-radius:10px;background:#ffffff;}
+#banner{ height:732px; margin:0 auto; background:#333; position:relative; overflow:hidden;}
+#banner .oUlplay { width:99999px; position:absolute; left:0; top:0;}
+#banner .oUlplay li{ float:left;}
+#banner .pre{ cursor:pointer; width:45px; height:45px; background:url(../images/l.png) no-repeat; position:absolute; top:190px; left:10px; z-index:10;}
+#banner .next{ cursor:pointer; width:45px; height:45px; background:url(../images/r.png) no-repeat; position:absolute; top:190px; right:10px; z-index:10;}
+#banner .smalltitle {width:1920px; height:10px; position:absolute; bottom:15px; z-index:10;margin:0 auto;}
+#banner .smalltitle ul{ width:120px; margin:0 auto;}
+#banner .smalltitle ul li{ width:10px; height:10px; margin:0 5px; border-radius:10px; background:#a8a6a4; float:left; overflow:hidden;*display:inline;*zoom:1;}
+#banner .smalltitle .thistitle{ background:#ee2934;}

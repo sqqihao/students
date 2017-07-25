@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ui-banner-1{ background:url(../images/banner_2.jpg) center top no-repeat; height:420px;}
+.ui-banner-2{ background:url(../images/banner_3.jpg) center top no-repeat; height:394px;}
+.ui-banner-3{ background:url(../images/banner_4.jpg) center top no-repeat; height:400px;}
+
+
+.content{ margin-top:45px;}
+/*左边菜单*/
+.c_left_nav{ width:300px;}
+.c_left_nav .c_left_nav_title{ text-align:center; color:#a60505; height:60px;}
+.c_left_nav .c_left_nav_title h3{ font-size:24px;}
+.c_left_nav .c_left_nav_title p{ font-size:18px;}
+.c_left_nav .nav_box{ width:300px; margin-bottom:50px;}
+
+.c_left_nav .nav_box li{ float:left; overflow:hidden; position:relative; }
+.c_left_nav .nav_box li img{ display:block; overflow:hidden;}
+.c_left_nav .nav_box li i{ 
+width:16px; height:16px;  position: absolute; background:#f1d6a7 url(../images/nav_ico.png);
+top:22px; right:70px; display:none;
+}
+.c_left_nav .nav_box li a:hover i,.nav_box li.current i{ display:block;} 
+.c_left_nav a.nav_list_1 { color:#a60505;width:300px; height:60px; background:#f1d6a7 url(../images/left_nav_bj.png) top left; text-align:center; line-height:60px; display:block; font-size:20px; text-decoration:none;}
+.c_left_nav a.nav_list_2 { color:#a60505;width:300px; height:60px; background:#f1d6a7 ; text-align:center; line-height:60px; display:block; font-size:20px; text-decoration:none;}
+.c_left_nav a.nav_list_3 { color:#a60505;width:300px; height:60px; background:#f1d6a7 url(../images/right_nav_bj.png) top left; text-align:center; line-height:60px; display:block; font-size:20px; text-decoration:none;}
+.c_left_nav a.nav_list_1:hover,.nav_box li.current a.nav_list_1{ background:#a60505 url(../images/left_nav_bj.png) top left;color:#f1d6a7;}
+.c_left_nav a.nav_list_2:hover,.nav_box li.current a.nav_list_2{ background:#a60505; color:#f1d6a7;}
+.c_left_nav a.nav_list_3:hover,.nav_box li.current a.nav_list_3{background:#a60505 url(../images/right_nav_bj.png) top left;color:#f1d6a7;}
+/*左边菜单 End*/
+
+/*面包屑*/
+.ui-bread{ color:#747474; text-align:right; font-size:16px; height:60px}
+.ui-bread a{ color:#747474; }
+/*面包屑 end*/
+
+/*右边标题*/
+.c_right{ margin-left:60px; width:840px; display:inline;}
+
+/*产品界面*/
+.ui-product-title{ border-bottom:7px solid #940003; position:relative; width:780px;}
+.ui-product-title strong{ width:110px; height:30px; background:#940003; display:block; text-align:center; line-height:30px; color:#fff; font-size:18px;}
+.ui-product-title i{ width:12px; height:10px; background:url(../images/jiantou.png) ; display:block; position:absolute;bottom:-17px;left:50%; margin-left:-6px; }
+.product_list li{ float:left; text-align:center; color:#9f9f9f; font-size:18px; margin:50px 65px 0; }
+.product_list li a{ color:#9f9f9f; }
+.product_img{ height:290px; height:290px; display:block; margin-bottom:20px; }
+.product_list li a:hover{ color:#9d0000; text-decoration:none;}
+.product_list li img{
+-webkit-transition:all 1s;
+-moz-transition:all 1s; 
+-o-transition:all 1s; 
+}
+.product_list li a:hover img{-webkit-transform:scale(1) rotate(-360deg) ; 
+-moz-transform:scale(1) rotate(-360deg); 
+-o-transform:scale(1) rotate(-360deg); 
+	
+	}
+.page{ margin:140px 0; color:#000; font-size:14px; text-align:center}
+
+/*产品界面 end*/
+/*新闻界面*/
+.ui-news_list li{ margin-bottom:20px; display:block}
+.ui-news_list .news_img{ width:200px; height:140px; float:left; margin-right:10px; display:inline;}
+.ui-news_list .news-title{ color:#9d0000;}
+.ui-news_list .news_info{ position:relative;}
+.ui-news_list .news_info p{ color:#767070; margin-top:5px;}
+.ui-news_list .gengduo{  margin-top:75px}
+.ui-news_list .gengduo i{background:url(../images/more_news.png) ; width:16px; height:16px; display:inline-block; vertical-align:middle;}
+.ui-news_list .gengduo a{ color:#9d0000;}
+.page-news{ margin:140px 0; color:#000; font-size:14px; text-align:center}
+.page-news a{ color:#ab0303; display:inline-block; width:16px; height:16px ; text-align:center; line-height:16px; background:#f1d6a7; margin-right:9px;}
+.page-news span a{ margin:0 20px 0 10px;background:none; text-decoration:none; color:#333;}
+
+/*新闻界面 END*/
+
+/*JOB*/
+.c_job_right{ margin-left:120px; width:780px; display:inline;}
+
+.c_job_right .job_title{ height:80px; border-top:1px solid #000; height:70px; line-height:70px; font-size:18px; color:#a61613;}
+.c_job_right .form-list label{ width:130px; text-align:center; float:left; color:#2f2f2f;}
+.c_job_right .ui-job-form{ margin-top:20px;}
+.c_job_right .form_w{ width:220px; border:1px solid #000; height:25px;}
+.c_job_right .form-list{ float:left; width:355px; margin-bottom:35px;}
+.c_job_right .anniu{ width:88px; height:25px; border:1px solid #000; background:#fff; float:right;}
+.c_job_right .job{ margin-bottom:100px;}
+.c_job_right .job-list_title{ margin-bottom:20px; font-size:20px; margin-top:70px;}
+.c_job_right .width-1{ width:100px; padding-left:5px; display:inline-block; text-align:center; margin-right:120px;}
+.c_job_right .width-2{ width:90px; text-align:center; padding-left:5px; display:inline-block;}
+.c_job_right .job li{ height:42px; line-height:42px; display:block; font-size:18px;}
+.c_job_right .bg_01{ background:#f3f3f3;}
+.c_job_right .width_c{ color:#a61613;}
+/*JOB end*/
+
+
+
+
+
+
+/*品牌营销*/
+.ui-brand .ui-title-bt{ font-size:20px; color:#940003;}
+.ui-brand .ui-title-bt i{ width:10px; height:10px; display:inline-block; background:#940003; margin-right:10px;}
+.ui-brand .ui-title-brand{}
+.ui-brand .ui-title-brand h3 { color:#aeaeae; font-size:16px; line-height:40px;}
+.ui-brand .ui-title-brand p{ text-indent:2em; color:#444444; margin-bottom:20px;}
+.ui-brand .ui-logo-list li{ width:145px; float:left; text-align:center; margin:20px 0; margin-right:65px;} 
+.ui-brand .ui-logo-list img{ margin-bottom:10px;}
+.ui-brand .ship_box{ width:560px; height:360px; margin-left:60px; float:left;}
+.ui-brand .ship{ margin:40px 0 80px;}
+.ui-brand .ship a.left{background:url(../images/left_jt.jpg) ; width:35px; height:55px; float:left; margin-top:145px; margin-left:50px; }
+.ui-brand .ship a.right{background:url(../images/right_jt.jpg) ; width:35px; height:55px; float:left; margin-top:145px; margin-left:50px; }

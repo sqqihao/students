@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */	
+	h3{line-height:6px;font-size:14px;padding-top:50px;color:#f04040;font-family:Arial," 微软雅黑";}
+	h4{line-height:62px;font-size:16px;color:#353535;font-family:Arial," 微软雅黑";}
+	p{font-size:12px;line-height:26px;font-family:Arial," 微软雅黑";}
+	
+	.nav_new{border:1px #f04040 solid;border-radius:9px;}/* 当前所在页面导航栏样式 */
+
+	#banner{width:1920px;height:450px;margin:0 auto;border-top:1px #f04040 solid;background:url(../images/news_banner.jpg)no-repeat center center;}
+	
+	.content{width:1000px;float:right;}
+	/* 雀氏新闻 */
+	.news_1{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_01.jpg) no-repeat left center;}
+	.news_2{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_02.jpg) no-repeat left center;}
+	.news_3{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_03.jpg) no-repeat left center;}
+	.news_4{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_04.jpg) no-repeat left center;}
+	/* 行业资讯 */
+	.brand_1{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_brand_01.jpg) no-repeat left center;}
+	.brand_2{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_brand_02.jpg) no-repeat left center;}
+	.brand_3{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_brand_03.jpg) no-repeat left center;}
+	.brand_4{height:279px;padding:0 0 50px 444px;border-top: 1px #d7d7d7 solid; background: url(../images/news_brand_04.jpg) no-repeat left center;}
+	/* 品牌事件 */
+	.trands_1{height:279px;padding-top:50px;border-top: 1px #d7d7d7 solid; }
+	.more{width: 62px;height: 24px;display: block;text-align: center;margin-top: 67px;line-height:24px;color:#fff;background:#f04040;}
+
+	.page {height:30px;float:right}
+	.page li{display: inline-block}
+	.page a{color:#535353;}

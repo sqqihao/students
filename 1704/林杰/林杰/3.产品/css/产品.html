@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>茶油食谱</title>
+<link rel="stylesheet" type="text/css" href="file:///G|/网格图片手风琴jquery特效代码/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="file:///G|/网格图片手风琴jquery特效代码/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="file:///G|/网格图片手风琴jquery特效代码/css/component.css" />
+<style sype="text/css">
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+#hander1{height:125px;}
+	.hander1_inner{width:1200px;height:125px;margin:0 auto;}
+		.hander1_logo{width:257px;height:99px;margin-top:26px;float:left;}
+		li{
+		list-style:none;
+	}
+	.li1{
+		float:left;
+		position:relative;
+		padding:55px 0px 15px 60px;
+		color:#666;
+	}
+	.li ul{
+		position:absolute;
+		left:0;
+		top:40px;
+	}
+	.li1 ul{
+		position:absolute;
+		margin-top:10px;
+		/*调整这个地方：left:-10px;*/
+		
+	}
+	.li1 span{
+		padding:6px;
+	}
+	.li1:hover span{
+		color:#2d8f33;
+		cursor:pointer;
+		border-bottom:2px solid #2d8f33;
+	}
+	.li1 ul{
+		display:none;
+		z-index:999;
+	}
+	.li1:hover ul{
+		display:block;
+	}
+	.li1 ul li{
+		padding:4px;
+		background:rgba(255,255,255,0.6);
+	}
+	.li1 ul li:hover{
+		background:#e0e0e0;
+		color:#2d8f33;
+		cursor:pointer;
+	}
+#banner{height:400px;background:url(file:///G|/%E5%91%A8%E4%BD%9C%E4%B8%9A/%E8%8C%B6%E6%B2%B9%E9%A3%9F%E8%B0%B1%E4%BA%8C%E7%BA%A7%E9%A1%B5%E9%9D%A2/images/banner.jpg); no-repeat top center;}
+#main{width:1200px;margin:0 auto;margin-top:40px;margin-bottom:40px;}
+	.main_zbdh{width:200px;float:left;}
+	.zbdh1{
+		background:#517714;
+		height:46px;
+		width:200px
+		}
+	.zbdh1:hover{background:#9cc18d;transition:0.5s;}
+	.zbdh1 h4{
+		width:200px;
+		text-align:center;
+		line-height:46px;
+		color:#fff;
+		font-size:18px;
+		font-family:"微软雅黑";
+		font-weight:normal;
+		}
+	.zbdh2{
+		border-bottom:1px solid #a8bb89;
+		height:46px;
+		}
+	.zbdh2 p{
+		width:200px;
+		text-align:center;
+		line-height:46px;
+		color:#404040;
+		font-size:14px;
+		font-family:"微软雅黑";
+		}
+	.zbdh2 img{
+		margin-top:20px;
+		margin-left:15px;
+		width:8px;
+		height:7px;
+		position:absolute;
+		}
+	.zbdh3{
+		border-bottom:1px solid #a8bb89;
+		height:46px;
+		}
+	.zbdh3 img{
+		margin-top:20px;
+		margin-left:15px;
+		width:8px;
+		height:7px;
+		position:absolute;
+		}
+	.zbdh3 p{
+		width:200px;
+		text-align:center;
+		line-height:46px;
+		color:#404040;
+		font-size:14px;
+		font-family:"微软雅黑";
+		}
+	.zbdh4{
+		border-bottom:1px solid #a8bb89;
+		height:46px;
+		background-image:url(file:///G|/%E5%91%A8%E4%BD%9C%E4%B8%9A/%E8%8C%B6%E6%B2%B9%E9%A3%9F%E8%B0%B1%E4%BA%8C%E7%BA%A7%E9%A1%B5%E9%9D%A2/images/cbdh2_03.jpg);
+		background-repeat:no-repeat;
+		background-position:center top;
+		}
+	.zbdh4:hover{background:#9cc18d;transition:0.5s;}
+	.zbdh4 img{
+		margin-top:20px;
+		margin-left:15px;
+		width:8px;
+		height:7px;
+		position:absolute;
+		}
+	.zbdh4 p{
+		width:200px;
+		text-align:center;
+		line-height:46px;
+		color:#fff;
+		font-size:14px;
+		font-family:"微软雅黑";
+		}
+	.main_body{width:960px;height:640px;margin-top:40px;margin-left:240px;padding-bottom:80px;}
+		.main_box1{width:320px;height:320px;background-image:url(file:///G|/%E7%BD%91%E6%A0%BC%E5%9B%BE%E7%89%87%E6%89%8B%E9%A3%8E%E7%90%B4jquery%E7%89%B9%E6%95%88%E4%BB%A3%E7%A0%81/images/%E6%9C%AA%E6%A0%87%E9%A2%98-2.jpg);float:left;}
+		.main_box2{width:320px;height:320px;background-image:url(file:///G|/%E7%BD%91%E6%A0%BC%E5%9B%BE%E7%89%87%E6%89%8B%E9%A3%8E%E7%90%B4jquery%E7%89%B9%E6%95%88%E4%BB%A3%E7%A0%81/images/phonenumber.jpg);float:left;}
+			.main_box2 li{}
+		.main_box3{width:320px;height:320px;background-image:url(file:///G|/%E7%BD%91%E6%A0%BC%E5%9B%BE%E7%89%87%E6%89%8B%E9%A3%8E%E7%90%B4jquery%E7%89%B9%E6%95%88%E4%BB%A3%E7%A0%81/images/hand.jpg);float:left;}
+		.main_box4{width:320px;height:320px;background-image:url(file:///G|/%E7%BD%91%E6%A0%BC%E5%9B%BE%E7%89%87%E6%89%8B%E9%A3%8E%E7%90%B4jquery%E7%89%B9%E6%95%88%E4%BB%A3%E7%A0%81/images/adress.jpg);float:left;}
+		.main_box5{width:320px;height:320px;background-image:url(file:///G|/%E7%BD%91%E6%A0%BC%E5%9B%BE%E7%89%87%E6%89%8B%E9%A3%8E%E7%90%B4jquery%E7%89%B9%E6%95%88%E4%BB%A3%E7%A0%81/images/girl.jpg);float:left;}
+		.main_box6{width:320px;height:320px;background-image:url(file:///G|/%E7%BD%91%E6%A0%BC%E5%9B%BE%E7%89%87%E6%89%8B%E9%A3%8E%E7%90%B4jquery%E7%89%B9%E6%95%88%E4%BB%A3%E7%A0%81/images/adress1.jpg);float:left;}
+#footer{margin-top:80px;height:100px;background-color:#517714;margin:0 auto;}
+	.footer_inner{width:1200px;margin:0 auto;}
+	.footer_inner ul{line-height:26px;color:#fff;font-size:12px;font-family:"微软雅黑";text-align:center;padding-top:12px;}			
+</style>
+</head>
+
+<body>
+<div id="hander1">
+	<div class="hander1_inner">
+    	<div class="hander1_logo"><img src="file:///G|/周作业/茶油食谱二级页面/images/logo_03.jpg"></div>
+		<ul class="tabs">
+				<li class="li1">首页</li>
+	<li class="li1">
+    	<span>关于沈郎</span>
+    	<ul>
+        	<li>沈郎简介</li>
+        	<li>资质荣誉</li>
+        	<li>企业文化</li>
+        	<li>生产基地</li>
+            <li>人才理念</li>
+        </ul>
+    </li>
+	<li class="li1">
+    	<span>新闻中心</span>
+    	<ul>
+        	<li>公司新闻</li>
+        	<li>茶油资讯</li>
+        </ul>
+    </li>
+	<li class="li1">
+    	<span>产品中心</span>
+    	<ul>
+        	<li>有机山茶油</li>
+        	<li>农副产品</li>
+        	<li>茶油衍生品</li>
+        	<li>有机山茶油</li>
+        </ul>
+    </li>
+	<li class="li1">
+    	<span>茶油博士</span>
+    	<ul>
+        	<li>茶油知识</li>
+        	<li>茶油食谱</li>
+        </ul>
+    </li>
+    	<li class="li1">
+    	<span>招商政策</span>
+    	<ul>
+        	<li>招商加盟</li>
+        	<li>合作伙伴</li>
+        	<li>营销网络</li>
+        </ul>
+    </li>
+    	<li class="li1">
+    	<span>联系我们</span>
+    	<ul>
+        	<li>联系我们</li>
+        	<li>在线订单</li>
+        	<li>客户留言</li>
+        </ul>
+    </li>
+        </ul>
+    </div>
+</div>
+<div id="banner"></div>
+<div id="main">
+	<div class="main_zbdh">
+    	<div class="zbdh1">
+    	  <h4>联系我们</h4></div>
+        <div class="zbdh4"><img src="file:///G|/周作业/茶油食谱二级页面/images/white_jt.png"/>
+        <p>联系我们</p></div>
+        <div class="zbdh2"><img src="file:///G|/周作业/茶油食谱二级页面/images/green_jt.png"/>
+        <p>在线订单</p></div>
+        <div class="zbdh3"><img src="file:///G|/周作业/茶油食谱二级页面/images/green_jt.png"/>
+        <p>客户留言</p></div>
+    </div>
+    <div class="main_body">
+		<ul class="accordion">
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/未标题-2.jpg"/></a>
+            <div class="caption">This is just a simple caption.</div>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/call.jpg"/></a>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/hand.jpg"/></a>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/callm.jpg"/></a>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/girl2.jpg"/></a>
+            <div class="caption"><u>Title</u><br/><br/>This is a list of items:<ul><li>first item</li><li>second item</li><li>third item</li></ul></div>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/adress1.jpg"></a>
+        </li>
+         <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/girl.jpg"/></a>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/adress.jpg"></a>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/hands.jpg"/></a>
+            <div class="caption"><u>Title</u><br/><br/>This is a list of items:<ul><li>first item</li><li>second item</li><li>third item</li></ul></div>
+        </li>
+        <li>
+            <a href="#" target="_blank"><img src="file:///G|/周作业/茶油食谱二级页面/images/adress1.jpg"></a>
+        </li>
+     
+	</ul>
+    </div>
+</div>
+<div id="footer">
+	<div class="footer_inner">
+        <ul>
+ 			<li>网站地图| 版权声明| 人才招聘| 联系我们 |站长统计</li>
+        	<li>Copyright©2013.All rights reserved. 闽ICP备08007180号 版权所有：沈郎乡有机山茶油</li>
+            <li>制造商：福建省沈郎油茶股份有限公司      地址：福建尤溪县经济开发区城西园      邮编：365100</li>
+        </ul>
+    </div>	
+</div>
+</body>
+</html>

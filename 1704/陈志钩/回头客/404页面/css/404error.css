@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+#error{
+	height:750px;
+	}
+.error_top{
+	widht:1200px;
+	height:750px;
+	margin:0 auto;
+	position:relative;
+	}
+.error_top h3{
+	font-size:96px;
+	color:#F30;
+	text-align:center;
+	padding-top:300px;
+	}
+.error_top h4{
+	font-size:24px;
+	color:#000;
+	text-align:center;
+	line-height:50px;
+	border-top:3px solid red;
+	margin-top:100px;
+	}
+.error_top_pic{
+	position:absolute;
+	left:580px;
+	top:200px;
+	}
+.error_bot{
+	font-size:18px;
+	line-height:50px;
+	text-align:center;
+	}

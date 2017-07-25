@@ -1,0 +1,319 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+banner区域
+*/
+#banner{
+	height:619px;
+	background:url(../images/tu_02.png) no-repeat center bottom;
+	margin-bottom:80px;
+}
+/*
+main区域
+*/
+#main{
+	height:2064px;
+}
+.main_inner{
+	width:1200px;
+	margin:0 auto;
+}
+/*
+产品中心
+*/
+.product{
+	width:1200px;
+	margin:0 auto;
+	margin-bottom:80px;
+}
+.product h4{
+	text-align:center;
+	font-size:24px;
+	font-weight:normal;
+	color:#b21e12;
+	letter-spacing:12px;
+}
+.product_line{
+	text-align:center;
+	margin-bottom:22px;
+}
+.product_show{
+	height:518px;
+}
+.product_left{
+	width:822px;
+	float:left;
+}
+/*
+产品中心顶部
+*/
+.product_left_top{
+	height:248px;
+	margin-bottom:23px;
+}
+.product_left_top_item{
+	width:403px;
+	height:248px;
+	float:left;
+}
+.product_left_top_item1{
+	width:403px;
+	height:248px;
+	float:left;
+	margin-left:16px;
+}
+.product_left_top_item_img{
+	width:403px;
+	height:193px;
+}
+#product_top_a{
+	display:block;
+	text-align:center;
+	width:403px;
+	height:55px;
+	line-height:55px;
+	background:#b21e12;
+	color:#FFFFFF;
+}
+#product_top_a:hover{
+	background:#eeb686;
+	color:#b21e12;
+	padding-top::193px;
+	background-color:rgba(178,30,18,0.2);
+	text-align:center;
+}
+/*
+产品中心底部
+*/
+.product_left_btm{
+}
+.product_left_btm_item{
+	float:left;
+}
+.product_left_btm_item2{
+	float:left;
+	margin:0px 16px;
+}
+.product_left_btm_item_pic{
+	height:193px;
+	width:263px;
+}
+#product_btm_a{
+	height:55px;
+	color:#FFFFFF;
+	display:block;
+	width:263px;
+	background:#B21E12;
+	line-height:55px;
+	text-align:center;
+}
+#product_btm_a:hover{
+	background:#eeb686;
+	color:#b21e12;
+}
+.product_right{
+	width:364px;
+	float:right;
+	margin-left:14px;
+}
+.product_right_pic{
+	height:450px;
+}
+.product_right_text{
+	height:70px;
+	background:#B21E12;
+	text-align:center;
+}
+.product_right_text p{
+	font-size:24px;
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:13px;
+}
+/*公司简介*/
+.company{
+	height:364px;
+	margin-bottom:80px;
+}
+.company_left{
+	float:left;
+	width:698px;
+}
+.company_left h2{
+	letter-spacing:12px;
+	color:#b21e12;
+	font-size:24px;
+	font-weight:normal;
+	text-align:center;
+	padding-top:28px;
+	padding-bottom:28px;
+}
+.company_left p{
+	font-size:14px;
+	color:#3f3f3f;
+	width:566px;
+	margin:0 auto;
+	text-indent:28px;
+	line-height:24px;
+}
+.company_right{
+	width:502px;
+	float:right;	
+}
+.company_more{
+	color:#B21E12;
+	font-size:12px;
+	float:right;
+	margin-top:74px;
+	margin-right:14px;
+}
+/*视频播放区域*/
+.video_layout{
+	height:308px;
+	margin-bottom:80px;
+}
+.video_left{
+	float:left;	
+	width:785px;
+	height:308px;
+}
+.video_play{
+	width:785px;
+	height:308px;
+	display:block;
+	overflow:hidden;
+}
+.video_right{
+	float:right;
+}
+.video_right h4{
+	letter-spacing:12px;
+	color:#b21e12;
+	font-size:24px;
+	font-weight:normal;
+	text-align:center;
+	padding-top:28px;
+	padding-bottom:28px;
+	margin-right:54px;
+}
+.video_right p{
+	font-size:14px;
+	width:280px;
+	margin:0 auto;
+	line-height:24px;
+	color:#3f3f3f;
+	text-indent:28px;
+	margin-right:54px;
+}
+/*
+新闻速递
+*/
+.news_layout{
+	margin-bottom:80px;
+}
+.news_show{
+	width:1084px;
+	margin:0 auto;
+}
+.news_layout h2{
+	text-align:center;
+	font-size:24px;
+	font-weight:normal;
+	color:#b21e12;
+	letter-spacing:12px;
+}
+.news_line_img{
+	text-align:center;
+	margin-bottom:22px;
+}
+.news_item{
+	height:80px;
+}
+.news_item_left:hover{
+	color:#b21e12;
+}
+.news_item_right:hover{
+	color:#b21e12;
+}
+.news_item_left{
+	float:left;
+	color:#4b4b4b;
+}
+.news_item_right{
+	float:right;
+	color:#4b4b4b;
+}
+.news_item_left h1{
+	font-size:72px;
+	line-height:72px;
+}
+.news_item_left h6{
+	font-size:12px;
+	text-align:center;
+	font-weight:normal;
+}
+.news_item_left h3{
+	font-size:18px;
+	font-weight:normal;
+	margin-top:4px;
+}
+.news_item_right h1{
+	font-size:72px;
+	line-height:72px;
+}
+.news_item_right h6{
+	font-size:12px;
+	text-align:center;
+	font-weight:normal;
+}
+.news_item_right h3{
+	font-size:18px;
+	font-weight:normal;
+	margin-top:4px;
+}
+.news_time{
+	float:left;
+}
+.news_content{
+	float:left;
+}
+.news_content p{
+	margin-top:20px;
+	line-height:20px;
+	width:396px;
+	font-size:12px;
+}
+.news_item_line{
+	margin:24px 0px;
+	background:#e6d1d1;
+	height:1px;
+}
+/*
+联系我们
+*/
+.callwe h4{
+	text-align:center;
+	font-size:24px;
+	font-weight:normal;
+	color:#b21e12;
+	letter-spacing:12px;
+}
+.callwe_img{
+	text-align:center;
+	margin-bottom:22px;
+}
+.callwe_items{
+	width:422px;
+	margin:0 auto;
+}
+.callwe_item1{
+	margin:0px 120px;
+	float:left;
+}
+.callwe_item{
+	float:left;
+}
+.callwe_items p{
+	font-size:12px;
+	color:#7e7d7d;
+}

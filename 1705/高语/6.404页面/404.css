@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+/*头部开始*/
+#header{
+	height:120px;
+	
+	}
+.header_inner{
+	width:1200px;
+	height:120px;
+	margin:0 auto;
+
+	}
+.logo{
+	float:left;
+	margin-top:13px;
+	
+	}
+.nav{
+	width:902px;
+	height:120px;
+	float:right;
+	
+	}
+.nav li{
+	width:150px;
+	height:120px;
+	float:left;
+	text-align:center;
+	line-height:120px;
+	position:relative;
+	
+	}
+.nav li a{
+	color:#ef454c;
+	font-family:"微软雅黑";
+	font-size:18px;
+	
+	}
+.nav li .sub{
+	position:absolute;
+	left:0px;
+	top:100px;
+	display:none;
+	z-index:999;
+	}
+.nav li .sub p{
+	width:150px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	margin-bottom:10px;
+
+	}
+.nav li .sub p a{
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#e5e5e5;
+
+	}
+.nav li .sub a:hover{
+	color:#fff;
+	
+	}
+.nav li:hover a{
+	width:150px;
+	background-color:#ef454c;
+	color:#fff;
+	font-weight:bold;
+	display:block;
+	
+	
+	}
+.nav li:hover .sub{
+	width:150px;
+	background-color:#ef454c;
+	display:block;
+	
+	}
+/*头部结束*/
+/*内容区域开始*/
+#main{
+	height:668px;
+	border-top:1px rgba(239,69,76,0.15) solid;
+	border-bottom:1px rgba(239,69,76,0.15) solid;
+	
+	}
+.main_inner{
+	width:1200px;
+	height:668px;
+	margin:0 auto;
+	
+	}
+.pic{
+	width:1200px;
+	height:424px;
+	
+	}
+.text{
+	height:126px;
+	
+	}
+.text p{
+	font-family:arial,"微软雅黑";
+	text-align:center;
+	color:#5a5a5a;
+	
+	}
+.chinses_txt{
+	font-size:24px;
+	line-height:35px;
+	
+	}
+.english_txt{
+	font-size:16px;
+	line-height:22px;
+	
+	}
+.return_home a{
+	width:129px;
+	height:38px;
+	border:1px #eb1c24 solid;
+	text-align:center;
+	line-height:38px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	display:block;
+	color:#eb1c24;
+	transition:0.2s;
+	margin-left:534px;
+	
+	}
+.return_home:hover a{
+	width:129px;
+	height:38px;
+	background-color:#eb1c24;
+	color:#fff;
+	
+	}
+/*内容区域结束*/
+/*footer区域开始*/
+#footer{
+	width:1200px;
+	height:452px;
+	margin:0 auto;
+	
+	}
+.footer_1{
+	float:left;
+	margin-top:50px;
+	height:246px;
+	width:200px;
+	line-height:30px;
+	padding-bottom:55px;
+	}
+.footer_1 a{
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#858585;
+	
+	}
+.footer_1 a h4{
+	color:#343434;
+	
+	}
+.footer_1 a:hover{
+	color:rgba(235,28,36,0.5);
+
+	}
+.copy{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	font-family:arial,"微软雅黑";
+	font-size:12px;
+	line-height:23px;
+	color:#858585;
+
+	}
+/*footer区域结束*/
+

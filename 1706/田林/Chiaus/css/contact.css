@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */	
+	h3{line-height:23px;font-size:14px;padding-top:84px;color:#f04040;font-family:Arial," 微软雅黑";}
+	h4{line-height:60px;font-size:16px;color:#535353;text-align: center; font-family:Arial," 微软雅黑";}
+	h5{line-height:60px;font-size:14px;color:#535353;text-align: center; font-family:Arial," 微软雅黑";}
+	p{font-size:12px;line-height:26px;font-family:Arial," 微软雅黑";}
+	
+	.pro{width:100px;height:26px;background:url(../images/index_00.png) no-repeat center top}
+	.nav_pro{border:1px #f04040 solid;border-radius:9px;}/* 当前所在页面导航栏样式 */
+	#banner{width:1920px;height:450px;margin:0 auto;border-top:1px #f04040 solid;background:url(../images/product_banner.jpg) no-repeat center center;}
+	
+	/* 通讯方式 */
+	.content{width:1000px;float:right;}
+	.con_top{height:150px;padding-top:50px;border-top: 1px #d7d7d7 solid;}
+	.con_top_1{width:200px;float:left;padding:70px 25px 0;background:url(../images/contact_01.png)no-repeat center top;}
+	.con_top_2{width:200px;float:left;padding:70px 25px 0;background:url(../images/contact_02.png)no-repeat center top;}
+	.con_top_3{width:200px;float:left;padding:70px 25px 0;background:url(../images/contact_03.png)no-repeat center top;}
+	.con_top_4{width:200px;float:left;padding:70px 25px 0;background:url(../images/contact_04.png)no-repeat center top;}
+	.con_top span{float:right;font-siza:22px;color:#f04040;}
+	.con_top_1 p{float:left;}
+	.con_dot p{width:400px;display:inline-block;margin-bottom:50px}
+	.p_r{margin-left:150px;}
+	.con_dot span{color:#f04040;}
+	/* 在线留言*/
+	.title{padding:30px 0;border-top: 1px #d7d7d7 solid;}
+	.mess{width:500px;padding-right:400px;background: url(../images/message_01.jpg) no-repeat right top;}
+	input{width:260px;margin-bottom:30px}
+	textarea{width:700px;resize:none;margin-top:30px;}

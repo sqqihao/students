@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	display:block;
+	text-decoration:none;
+	}
+#bg{
+	height:1000px;
+	background:url(../images/404.jpg) no-repeat center center;
+	}
+.inner{
+	width:1120px;
+	height:100px;
+	padding-top:575px;
+	margin:0 auto;
+	}
+.return{
+	background:none;
+	border:2px solid red;
+	height:40px;
+	width:120px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:red;
+	}
+.return:hover{
+	border:2px solid #0099bd;
+	color:#0099bd;
+	}

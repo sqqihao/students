@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	text-decoration:none;
+}
+#bg{
+	height:900px;
+	width:1900px;
+	margin:0 auto;
+	background:url(../images/404.png) no-repeat center top;
+	text-align:center;
+	float:left;
+}
+.full{
+	margin-top:796px;
+	height:900px;
+	width:1900px;
+}
+.go_home{
+	width:250px;
+	height:76px;
+	background:url(../images/404_button.png) no-repeat center top;
+	margin:0 auto;
+	font-size:18px;
+	padding-top:10px;
+}
+.go_home a{
+	color:#fff;
+}

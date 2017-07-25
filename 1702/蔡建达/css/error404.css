@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+*	{
+	margin:0; padding:0;
+	overflow:hidden;
+	}
+li	{
+	list-style:none;
+	}
+a	{
+	text-decoration:none;
+	}
+
+#error
+	{
+	padding-top:820px;
+	height:180px;
+	background-image:url(../image/error1.jpg)
+	}
+/*返回首页按钮*/
+.home
+	{
+	float:left;
+	margin-left:768px;
+	width:137px;
+	height:60px;
+	background-image:url(../image/Return_home.png);
+	}
+.home:hover
+	{
+	background-image:url(../image/Return_homea.png);
+	}
+/*关于页面按钮*/
+.on
+	{
+	float:left;
+	margin-left:18px;
+	width:123px;
+	height:60px;
+	background-image:url(../image/Return_on.png);
+	}
+.on:hover
+	{
+	background-image:url(../image/Return_ona.png);
+	}
+/*产品页面按钮*/
+.product
+	{
+	float:left;
+	margin-left:18px;
+	width:123px;
+	height:60px;
+	background-image:url(../image/Return_product.png);
+	}
+.product:hover
+	{
+	background-image:url(../image/Return_producta.png);
+	}
+/*服务页面按钮*/
+.service
+	{
+	float:left;
+	margin-left:18px;
+	width:124px;
+	height:60px;
+	background-image:url(../image/Return_service.png);
+	}
+.service:hover
+	{
+	background-image:url(../image/Return_servicea.png);
+	}
+
+
+

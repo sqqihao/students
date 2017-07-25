@@ -1,0 +1,1 @@
+<?xml version="1.0"?><dwquery>  <queryparams matchcase="false" ignorewhitespace="true" useregexp="false" wholeword="false" />  <find searchmode="document">    <qtext qname="../images/wm-point.png" qraw="true"></qtext>  </find>  <replace action="replaceText" param1="" param2=""/></dwquery>

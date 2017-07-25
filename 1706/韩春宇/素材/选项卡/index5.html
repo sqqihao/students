@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	#nav{
+		width:800px;
+		margin:0 auto;
+	}
+	li{
+		list-style:none;
+		position:relative;
+	}
+	.qs{
+		padding:0 20px;
+		float:left;
+	}
+	.qs-son{
+		position:absolute;
+		left:20px;
+		top:20px;;
+		display:none;
+	}
+	.qs:hover .qs-son{
+		display:block;
+	}
+	.qs-son p:hover{
+		color:red;
+		background:#eee;
+		cursor:pointer;
+	}
+</style>
+</head>
+<!--
+出现这个问题：
+	nav这个导航会影响到main区域的排版
+    
+解决这个问题：
+	给qs-son加定位（定位会让一个元素或者标签浮动起来， 脱离原来的布局， 他就不会影响到下面的排版）
+    position:absolute;
+-->
+<body>
+	<ul id="nav">
+    	<li class="qs">
+        	网站首页
+        	<div class="qs-son">
+            	<p> 首页1 </p>
+            	<p> 首页2 </p>
+            	<p> 首页3 </p>
+            </div>
+        </li>
+    	<li class="qs">关于雀氏
+        	<div class="qs-son">
+            	<p> 关于雀氏1 </p>
+            	<p> 关于雀氏2 </p>
+            	<p> 关于雀氏3 </p>
+            </div>
+        </li>
+    	<li class="qs">产品中心</li>
+    	<li class="qs">天才俱乐部</li>
+    </ul>
+    <div id="main">
+    	1231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312123123123121231231231212312312312
+    </div>
+</body>
+</html>

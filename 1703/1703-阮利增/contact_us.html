@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>contact_us</title>
+<link rel="stylesheet" type="text/css" href="css/cont.css" />
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+
+<body>
+<div id="header">
+	<div class="header_top">
+    	<div class="header_top_inner"> 
+          <a href="index.html"><img src="images/logo_03.jpg"/></a>
+        	<p><a href="#">中文</a>&nbsp;|&nbsp;<a href="#">授权查询</a>&nbsp;|&nbsp;<a href="#">联系我们</a></p>
+      </div>
+    </div>
+    <div class="header_bot">
+    	<ul class="nav">
+        	<li class="navli"><a href="index.html">首页</a></li>
+            <li class="navli">
+            	<a href="production.html">兰研产品</a>
+                <ul class="nav2">
+                	<li class="nav2li"><a href="production.html">最新产品</a></li>
+                    <li class="nav2li"><a href="#">护肤系列</a></li>
+                    <li class="nav2li"><a href="#">彩妆系列</a></li>
+                </ul>
+            </li>
+            <li class="navli">
+            	<a href="about_lanyan.html">关于兰研</a>
+                <ul class="nav2">
+                	<li class="nav2li"><a href="about_lanyan.html">关于兰研</a></li>
+                    <li class="nav2li"><a href="#">未来发展</a></li>
+                    <li class="nav2li"><a href="#">生产之路</a></li>
+                    <li class="nav2li"><a href="#">资质荣誉</a></li>
+                </ul>
+            </li>
+            <li class="navli">
+            	<a href="news.html">品牌资讯</a>
+                <ul class="nav2">
+                	<li class="nav2li"><a href="news.html">企业动态</a></li>
+                    <li class="nav2li"><a href="#">媒体报道</a></li>
+                </ul>
+            </li>
+            <li class="navli"><a href="contact_us.html" class="home">联系我们</a></li>
+            <li class="navli"><a href="404.html">授权查询</a></li>
+        </ul>
+        <div class="header_search"><input class="search_input" type="text" value="请输入您要查询的产品名称"/><input class="search_point" type="button"/></div>
+    </div>
+</div>
+<div id="banner"></div>
+<div id="main">
+  <div class="main_icons">
+    	<div class="main_icons_title"><img src="images/main_icons_title_03.jpg"/></div>
+    <div class="main_icons_bot">
+    	<div class="icon_left">
+        	<div class="icon_front"><img src="images/icon_map.png"/><br />公司地址</div>
+            <div class="icon_back">福建省泉州市丰泽区东海大街<br />俊园2号楼A梯1402-1403室</div>
+        </div>
+        <div class="icon_left">
+        	<div class="icon_front"><img src="images/icon_tel.png"/><br />联系电话</div>
+            <div class="icon_back"><p>座机：0595-22930008</p></div>
+        </div>
+        <div class="icon_left">
+        	<div class="icon_front"><img src="images/icon_wx.png"/><br />微信</div>
+            <div class="icon_back"><p>微信号:lanyan_beauty</p></div>
+        </div>
+        <div class="icon_right">
+        	<div class="icon_front"><img src="images/icon_wb.png"/><br />微博</div>
+            <div class="icon_back"><p>账号：lanyan_beauty</p></div>
+        </div>
+    </div>
+  </div>
+    <div class="main_map">
+    	<div style="width:1200px;height:500px;border:#ccc solid 1px;" id="dituContent"></div>
+    </div>
+</div>
+<div id="footer">
+	<ul>
+    	<h4><a href="#">护肤</a></h4>
+        <li><a href="#">氨基酸洁面膏</a></li>
+        <li><a href="#">玻尿酸补水蚕丝面膜</a></li>
+        <li><a href="#">精粹蜗牛霜</a></li>
+        <li><a href="#">精粹爽肤水</a></li>
+        <li><a href="#">精粹滋润乳液</a></li>
+        <li><a href="#">嫩肤膏</a></li>
+    </ul>
+    <ul>
+    	<h4><a href="#">彩妆</a></h4>
+        <li><a href="#">水润气垫修容霜</a></li>
+        <li><a href="#">焕彩隔离乳</a></li>
+        <li><a href="#">活颜紧致眼霜</a></li>
+        <li><a href="#">润色魅惑唇膏</a></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <ul>
+    	<h4>泉州兰研化妆品有限公司</h4>
+        <li>公司地址：福建省泉州市丰泽区东海大街俊园2号楼A梯1402-1403室</li>
+        <li>客服热线：0595-22930008</li>
+        <li>全国客户服务热线：400 8892 555</li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="footer_img"><img src="images/ewm_03.jpg"/></div>
+</div>
+<div id="copy">
+  <div class="copy_inner"><a href="index.html">兰研官网</a> | <a href="404.html">授权查询</a> | 闽ICP备16011117号 | 法律声明&copy;兰研有限公司所有</div>
+</div>
+<div id="ToTop"><a href="#"><img src="images/goToTop.png"/></a></div>
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+    
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(118.669824,24.872813);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"兰研有限公司",content:"魅力兰研&nbsp;还你美丽",point:"118.669851|24.873042",isOpen:1,icon:{w:23,h:25,l:115,t:21,x:9,lb:12}}
+		 ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+</script>
+</html>

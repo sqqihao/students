@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>联系我们-vesaloly</title>
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/contact.css" type="text/css" rel="stylesheet" />
+
+ <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=uwzedePLgPzhVKAaRlWvn6gttNcPoFdC"></script><!--百度地图脚本-->
+
+</head>
+
+<body>
+
+<div id="scroll">
+	<a class="tianmao" href="https://chiaus.tmall.com/index.htm?spm=a1z10.3-b-s.w11826796-14554270516.10.108c90beZnBTVS" target="_blank" ><img src="images/index_tianmao.png" alt="vesaloly"></a>
+	<a class="jingdong" href="https://mall.jd.com/index-1000015389.html" target="_blank"><img src="images/index_jingdong.png" alt="vesaloly"></a>
+	<a class="to_top" href="#"><img src="images/index_top.png" alt="vesaloly"></a>
+</div>
+
+<div id="header">
+	<div class="header_inner">
+		<a href="index.html"><img src="images/index_logo.jpg" alt="vesaloly"></a>
+		<ul class="login">
+			<li><a href="http://chiaus.cn/login.php#reg">登录</a>&ensp;|&ensp;<a href="http://chiaus.cn/login.php#reg">注册</a>&ensp;|&ensp;<a href="#">中文</a>&ensp;|&ensp;<a href="http://en.chiaus.com/">其他语言</a></li>
+		</ul>
+		<ul class="nav">
+			<li><a class="nav_home" href="index.html">网站首页</a></li>
+			<li><a class="nav_about" href="about.html">关于雀氏</a></li>
+			<li><a class="nav_pro" href="product.html">产品中心</a></li>
+			<li><a class="nav_club" href="http://www.chiaus.cn/club.php">天才俱乐部</a></li>
+			<li><a class="nav_new" href="news.html">新闻中心</a></li>
+			<li><a class="nav_con" href="contact.html">联系我们</a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="banner"></div>
+
+<div id="main_inner">
+	<div class="sidebar">
+		<ul>
+			<li><h2>联系我们</h2></li>
+			<li><a class="sidebar_corrent" href="product.html">通讯方式</a></li>
+			<li><a href="message.html">在线留言</a></li>
+			<li><a href="404.html">招牌信息</a></li>
+		</ul>
+	</div>
+	<div class="bread"><a href="index.html">网站首页</a>><a href="#">联系我们</a>><a class="bread_corrent" href="#">通讯方式</a></div>
+	<div class="content">
+		<div class="con_top">
+			<div class="con_top_1">
+				<p>服务热线:</p><span>0595-87203333</span><br><span>0595-87201088</span>
+			</div>
+			<div class="con_top_2">
+				<p>地址：福建省泉州市惠安县东工业园区通港路6号</p>
+			</div>
+			<div class="con_top_3">
+				<p>传真：0595-87202333</p>
+				<p>邮编：362133</p>
+			</div>
+			<div class="con_top_4">
+				<p>邮箱：chiaushr@chiaus.cn</p>
+			</div>
+		</div>
+		<div class="con_dot">
+			<h4>乘车路线</h4>
+			<p>惠安东站：<br>乘坐"惠安—小岞"中巴车（直接买到东岭"雀氏公司门口"下车）</p>
+			<p class="p_r">泉州市区客运中心站：<br>乘坐“泉州——斗尾港”中巴车（直接买到东岭“雀氏公司门口”下车）</p>
+			<p><span>厦门市枋湖客运站</span><br>乘坐"厦门枋湖—斗尾港"中巴车（直接买到惠安东岭的车票，在
+惠东工业区"雀氏公司门口下车") </p>
+		</div>
+   
+		<div style="width700px;height:550px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div id="footer">
+	<div class="footer_inner">
+		<div class="footer_txt">
+			<p>电&ensp;话：&nbsp;+86 10-61582739/9286</p>
+			<p>传&ensp;真：&nbsp;+86 10-61582739/3839</p>
+			<p>网&ensp;址：&nbsp;www.bjysl.com</p>
+			<p>邮&ensp;箱：&nbsp;yhyq2003@bjysl.cn</p>
+		</div>
+		<div class="footer_txt">
+			<p>联系人：&nbsp;田恩广</p>
+			<p>地&ensp;址：&nbsp;福建省厦门市西马各庄工业园</p>
+			<p>邮&ensp;编：&nbsp;101103</p>
+		</div>
+		<div class="footer_pic">
+			<img src="images/index_chiaus2.jpg" alt="vesaloly" />
+			<p>微信关注</p>
+		</div>
+		<div class="footer_pic">
+			<img src="images/index_chiaus2.jpg" alt="vesaloly" />
+			<p>微博网页版</p>
+		</div>
+	</div>
+	<div class="copy">
+		<p>&copy;雀氏纸尿裤有限公司版权所有 ALL RIGHT RESERVED.&nbsp;&nbsp;京ICP备&nbsp;&nbsp;110422555&nbsp;&nbsp;中企动力提供技术支持</p>
+	</div>
+</div>
+<script>
+	var i = 0;
+	var eS = document.getElementById("scroll");
+	window.onscroll = function() {
+		if(window.scrollY>500) {
+			eS.style.display = "block";
+		}else{
+			eS.style.display = "none";
+		}
+	}
+</script>
+</body>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+      addMapOverlay();//向地图添加覆盖物
+    }
+    function createMap(){ 
+      map = new BMap.Map("map"); 
+      map.centerAndZoom(new BMap.Point(118.876399,24.978353),15);
+    }
+    function setMapEvent(){
+      map.enableScrollWheelZoom();
+      map.enableKeyboard();
+      map.enableDragging();
+      map.enableDoubleClickZoom()
+    }
+    function addClickHandler(target,window){
+      target.addEventListener("click",function(){
+        target.openInfoWindow(window);
+      });
+    }
+    function addMapOverlay(){
+      var markers = [
+        {content:"雀氏公司",title:"雀氏公司",imageOffset: {width:0,height:3},position:{lat:24.979074,lng:118.874243}}
+      ];
+      for(var index = 0; index < markers.length; index++ ){
+        var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
+        var marker = new BMap.Marker(point,{icon:new BMap.Icon("http://api.map.baidu.com/lbsapi/createmap/images/icon.png",new BMap.Size(20,25),{
+          imageOffset: new BMap.Size(markers[index].imageOffset.width,markers[index].imageOffset.height)
+        })});
+        var label = new BMap.Label(markers[index].title,{offset: new BMap.Size(25,5)});
+        var opts = {
+          width: 200,
+          title: markers[index].title,
+          enableMessage: false
+        };
+        var infoWindow = new BMap.InfoWindow(markers[index].content,opts);
+        marker.setLabel(label);
+        addClickHandler(marker,infoWindow);
+        map.addOverlay(marker);
+      };
+    }
+    //向地图添加控件
+    function addMapControl(){
+      var scaleControl = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+      scaleControl.setUnit(BMAP_UNIT_IMPERIAL);
+      map.addControl(scaleControl);
+      var navControl = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+      map.addControl(navControl);
+      var overviewControl = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:true});
+      map.addControl(overviewControl);
+    }
+    var map;
+      initMap();
+  </script>
+</html>

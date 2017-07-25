@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+#mian_404{
+	width:1920;
+	margin:0 auto;
+	}
+

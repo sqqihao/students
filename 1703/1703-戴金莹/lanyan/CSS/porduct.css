@@ -1,0 +1,523 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+#header {
+	height: 136px;
+	background-color: #1e1e1e;
+}
+/*头部居中*/
+.header_inner {
+	width: 1200px;
+	height: 136px;
+	margin: 0 auto;
+	background: url(../images/logo_03.jpg) no-repeat center center;
+	position: relative;
+}
+.header_inner a {
+	color: #fff;
+}
+.header_inner a:hover {
+	color: #C00;
+}
+/*头部右侧文字*/
+.header_inner li {
+	font-family: "宋体";
+	font-size: 14px;
+	float: right;
+	color: #fff;
+	margin-top: 41px;
+	margin-left: 8px;
+	line-height: 16px;
+}
+/*中英文切换*/	
+select {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #fff;
+	background: none;
+	border: none;
+	float: right;
+	outline: none;
+	padding-top: 10px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: url(../images/jt_03.jpg) no-repeat scroll right center transparent;
+	padding-right: 6px;
+	padding-top: 0px;
+	position: absolute;
+	top: 40px;
+	right: 154px;
+	cursor: pointer;
+}
+option {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #000;
+	background: none;
+	border: none;
+}
+/*导航代码*/
+
+
+#nav {
+	width: 1030px;/*原宽1200px，减去padding170px后得出的数据*/
+	height: 50px;
+	margin: 0 auto;
+	padding-left: 170px;
+	border-bottom: 3px solid #1e1e1e;
+	background: url(../images/sj_07.jpg) no-repeat 346px 45px;
+}
+/*首页*/
+.li_1 {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	width: 100px;
+	line-height: 46px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+.li_1 a {
+	color: #666;
+}
+.li_1 a:hover {
+	color: #C00;
+}
+/*首页*/
+/*兰研产品*/
+.li_2 a {
+	color: #666;
+}
+.li_2 a:hover {
+	color: #C00;
+}
+.li_2_1 a:hover {
+	color: #C00;
+	font-size: 16px
+}
+.li_2 {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	width: 100px;
+	line-height: 46px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 4px;
+	position: relative;
+}
+.li_2_1 li {
+	height: 30px;
+}
+.li_2_1 {
+	width: 100px;
+	height: 100px;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	top: 46px;
+	left: 0px;
+	background: #fff;
+	display: none;
+}
+.li_2:hover .li_2_1 {
+	display: block;
+}
+/*兰研产品*/
+
+/*关于兰研*/		
+.li_3 a {
+	color: #666;
+}
+.li_3 a:hover {
+	color: #C00;
+}
+.li_3_1 a:hover {
+	color: #C00;
+	font-size: 16px
+}
+.li_3 {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	width: 100px;
+	line-height: 46px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 4px;
+	position: relative;
+}
+.li_3_1 li {
+	height: 30px;
+}
+.li_3_1 {
+	width: 100px;
+	height: 100px;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	top: 46px;
+	left: 0px;
+	background: #fff;
+	display: none;
+}
+.li_3:hover .li_3_1 {
+	display: block;
+}
+/*关于兰研*/
+
+/*品牌资讯*/
+.li_4 a {
+	color: #666;
+}
+.li_4 a:hover {
+	color: #C00;
+}
+.li_4_1 a:hover {
+	color: #C00;
+	font-size: 16px
+}
+.li_4 {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	width: 100px;
+	line-height: 46px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 4px;
+	position: relative;
+}
+.li_4_1 li {
+	height: 30px;
+}
+.li_4_1 {
+	width: 100px;
+	height: 70px;
+	color: #333;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	position: absolute;
+	top: 46px;
+	left: 0px;
+	background: #fff;
+	display: none;
+}
+.li_4:hover .li_4_1 {
+	display: block;
+}
+/*品牌资讯*/
+
+/*联系我们*/
+.li_5 {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	width: 100px;
+	line-height: 46px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+.li_5 a {
+	color: #666;
+}
+.li_5 a:hover {
+	color: #C00;
+}
+/*联系我们*/
+
+
+/*授权查询*/	
+.li_6 {
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	width: 100px;
+	line-height: 46px;
+	text-align: center;
+	margin-left: 15px;
+	margin-top: 4px;
+}
+.li_6 a {
+	color: #666;
+}
+.li_6 a:hover {
+	color: #C00;
+}
+/*授权查询*/	
+
+/*搜索框*/
+.sousuo {
+	float: right;
+	height: 26px;
+	margin-top: 10px;
+}
+.ss1 {
+	width: 130px;
+	height: 24px;
+	color: #CCC;
+	border: 1px solid #a0a0a0;
+	border-right: none;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	float: left;
+	padding-left: 10px;
+	outline: none;
+}
+value {
+	font-family: "宋体";
+	font-size: 12px;
+	float: left;
+	line-height: 26px;
+	margin-left: 12px;
+}
+.fdj {
+	background: url(../images/fdj_07.jpg) no-repeat 18px 7px;
+	width: 40px;
+	height: 26px;
+	outline: none;
+	cursor: pointer;
+	width: 40px;
+	border: 1px solid #a0a0a0;
+	border-left: none;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	vertical-align: bottom;
+}
+/*搜索框*/
+#banner {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background: url(../images/nybanner_02.jpg) no-repeat center center;
+}
+#main_inner {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.left_nav {
+	float: left;
+	position: relative;
+}
+.nav_li {
+	font-family: "微软雅黑";
+	font-size: 18px;
+	line-height: 36px;
+	border-bottom: 1px dashed #E8E8E8;
+	text-align: center;
+}
+.nav_li a {
+	color: #333;
+}
+.nav_li a:hover {
+	color: #C00;
+}
+.nav_li:hover {
+	color: #C00;
+	border-bottom: 1px solid #F60;
+}
+.nav_sj {
+	position: absolute;
+	top: 12px;
+	left: 76px;
+}
+.nav_li_1 {
+	font-family: "微软雅黑";
+	font-size: 14px;
+	line-height: 34px;
+	text-align: right;
+}
+.nav_li_1 a {
+	color: #333;
+}
+.nav_li_1 a:hover {
+	color: #C00;
+}
+.main_right {
+	float: right;
+	width: 1052px;
+}
+
+.chanpin {
+	width: 296px;
+	float:left;
+	margin-right:82px;
+}
+.chanpin2 {
+	width: 296px;
+	float:left;
+}
+.chanpin2:hover .pinming a{
+	color:#C00
+	}
+.chanpin_img {
+	text-align: center;
+}
+.chanpin:hover .chanpin_img{
+	transform:scale(1.05)}
+	
+.chanpin2:hover .chanpin_img{
+	transform:scale(1.05)}	
+.name ul {
+	width: 200px;
+	float: left;
+	background: url(../images/hx_15.jpg) no-repeat 12px 24px;
+	margin-bottom:80px;
+}
+.gongxiao {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #515050;
+	line-height: 24px;
+	text-align: right;
+}
+.pinming {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	line-height: 25px;
+	text-align: right;
+}
+.pinming a{
+	color: #515050;
+	}
+.chanpin:hover .pinming a{
+	color:#C00
+	}	
+.rmb {
+	font-family: arial, "微软雅黑";
+	font-size: 16px;
+	color: #ff0101;
+	text-align: right;
+	line-height: 16px;
+}
+.shuxian {
+	width: 4px;
+	height: 65px;
+	border-right: 1px #ffac94 solid;
+	float: left;
+}
+.sekuai {
+	width: 75px;
+	height: 24px;
+	background: #ffac94;
+	float: right;
+	margin-top: 20px;
+	font-size: 14px;
+	font-family: "宋体";
+	padding-left: 16px;
+	line-height: 24px;
+}
+.sekuai a{
+	color: #fff;
+	}
+.sekuai a:hover{
+	color: #C00;
+	}	
+.footer_inner {
+	height: 326px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.footer_line {
+	width: 1200px;
+	height: 50px;
+	border-bottom: 1px #bfbfbf solid;
+	float: left;
+}
+.footer_bot {
+	height: 275px;
+	width: 1200px;
+	float: left;
+	position: relative;
+}
+.footer_bot .ul1 {
+	width: 237px;
+	float: left;
+}
+.footer_bot .li1 {
+	line-height: 36px;
+	width: 122px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	border-bottom: 1px #767676 solid;
+	color: #333;
+	margin-bottom: 4px;
+	margin-top: 27px;
+}
+.footer_bot .li2 {
+	line-height: 25px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666;
+}
+.footer_bot .ul1 {
+	width: 237px;
+	float: left;
+}
+.footer_bot .ul2 {
+	width: 440px;
+	float: left;
+}
+.footer_bot .li3 {
+	line-height: 36px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 4px;
+	margin-top: 27px;
+	background: url(../images/zhixian_27.jpg) no-repeat bottom left;
+}
+.footer_bot .li1 a {
+	color: #333;
+}
+.footer_bot .li1 a:hover {
+	color: #C00;
+}
+.footer_bot .li2 a {
+	color: #666;
+}
+.footer_bot .li2 a:hover {
+	color: #C00;
+}
+.ewm {
+	position: absolute;
+	right: 0px;
+	bottom: 76px;
+}
+#copy{
+	width:100%;
+	height:46px;
+	background-color:#393939;
+	float:left;
+	}
+.copy_inner{
+	width:1200px;
+	margin:0 auto;
+	text-align:center;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height:46px;
+	color: #d1d1d1;
+	} 

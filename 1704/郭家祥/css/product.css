@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+#banner{
+	height:400px;
+	background: url(../images/banner2_02.jpg);
+	margin-bottom:60px;
+	}
+#main{
+	height:2577px;
+	width:1200px;
+	margin:0 auto;
+	}
+.main_right{
+	width:900px;
+	height:2425px;
+	float:left;
+	}
+.main_right p{
+	float:right;
+	font-size:18px;
+	font-family:"微软雅黑";
+	}
+.main_right a{
+	color:#747474;
+	}
+.main_right .content{/*欧式蛋糕、枣泥蛋糕、千层蛋糕、戚风蛋糕*/
+	padding-top:60px;
+	width:774px;
+	margin:0 auto;
+	}
+.main_right .content li{
+	float:left;
+	width:120px;
+	height:36px;
+	line-height:36px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:24px;
+	background:#f1d6a7;
+	margin-right:2px;
+	}
+.main_right .content .lis{
+	background:#9d0000;
+	width:120px;
+	height:36px;
+	}
+.main_right .content a{
+	color:#9d0000;
+	}
+.main_right .content .a1{
+	color:#fff;
+	}
+.main_right .content ul{
+	width:774px;
+	height:55px;
+	background:url(../images/product_line_03.jpg) no-repeat bottom;
+	margin-bottom:32px;
+	}
+.main_right li:hover a{
+	color:#fff;
+	}	
+.main_right li:hover{
+	background:#9d0000;
+	width:120px;
+	height:36px;
+	}
+.content .cont_bot{
+	height:2236px;
+	padding-top:42px;
+	background:#fbfbfb;
+	}
+.content .cont_bot .box1{
+	width:674px;
+	height:400px;
+	margin:0 auto 40px;
+	}
+.cont_bot .box1 .left{
+	float:left;
+	width:300px;
+	height:400px;
+	}
+.box1 .pic1{
+	width:300px;
+	height:300px;
+	margin-bottom:10px;
+	}
+.pic1 img{
+	width:300px;
+	}
+.pic1:hover img{
+	transform:scale(1.2);
+	}
+.pic1:hover{
+	overflow:hidden;
+	}
+
+.box1 p{
+	width:300px;
+	height:90px;
+	font-family:arial,"微软雅黑";
+	font-size:18px;
+	line-height:30px;
+	text-align:center;
+	color:#a3a3a3;
+	}
+.cont_bot .box1 .right{
+	float:right;
+	width:300px;
+	height:400px;
+	}
+.cont_bot .text{
+	text-align:center;
+	font-size:14px;
+	color:#a3a3a3;
+	font-family:arial,"微软雅黑";
+	}
+

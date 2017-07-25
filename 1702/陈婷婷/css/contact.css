@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+input{
+	outline:0;
+	background:none;
+	border:none;
+	}
+#banner{
+	height:300px;
+	background-color:#f7feff;
+	background:url(../images/banner_01.jpg) no-repeat center top;
+	}
+#main{
+	height:700px;
+	width:1200px;
+	margin:0 auto;
+	}
+.contact_us{
+	float:left;
+	padding-top:20px;
+	width:720px;
+	font-family:"微软雅黑";
+	}
+/*表单信息*/
+.title{
+	margin-bottom:30px;
+	margin-left:40px;
+	font-size:16px;
+	color:#0099bd;
+	height:40px;
+	line-height:40px;
+	border-bottom:2px solid #0099bd;s
+	}
+.form_s{
+	background-color:#f6f6f6;
+	height:40px;
+	width:200px;
+	float:left;
+	margin-left:40px;
+	margin-bottom:20px;
+	}
+.txt{
+	float:left;
+	font-size:14px;
+	color:#4b4d4e;
+	line-height:40px;
+	padding-left:20px;
+	}
+.text_s{
+	float:left;
+	font-size:14px;
+	color:#4b4d4e;
+	line-height:40px;
+	width:120px;
+	}
+.text_ss{
+	float:left;
+	font-size:14px;
+	color:#4b4d4e;
+	line-height:40px;
+	width:100px;
+	}
+.form_l{
+	background-color:#f6f6f6;
+	height:40px;
+	width:680px;
+	float:left;
+	margin-left:40px;
+	margin-bottom:20px;
+	}
+.text_l{
+	float:left;
+	font-size:14px;
+	color:#4b4d4e;
+	line-height:40px;
+	width:600px;
+	}
+.textarea{
+	margin-left:40px;
+	margin-bottom:40px;
+	}
+.words{
+	font-size:14px;
+	color:#4b4d4e;
+	line-height:30px;
+	padding-left:20px;
+	}
+/*留言区*/
+textarea{
+	outline:0;
+	background:none;
+	border:none;
+	width:640px;
+	height:260px;
+	padding:20px;
+	font-size:14px;
+	color:#4b4d4e;
+	background-color:#f6f6f6;
+	resize:none;
+	}
+/*按钮*/
+.con_but{
+	float:right;
+	margin-top:30px;
+	}
+.contact_but{
+	width:100px;
+	height:36px;
+	line-height:24px;
+	text-align:center;
+	border:2px solid #0099bd;
+	border-radius:4px;
+	background:#0099bd;
+	font-family:"宋体";
+	font-size:14px;
+	color:#f7feff;
+	}
+.contact_but:hover{
+	background:#b3e0ef;
+	border:2px solid #b3e0ef;
+	}
+/*联系信息*/
+.hot_line{
+	float:left;
+	padding-top:20px;
+	width:200px;
+	}
+.hot_line_title{
+	margin-left:20px;
+	font-family:"宋体";
+	font-size:14px;
+	line-height:22px;
+	color:#0099bd;
+	}
+.hot_line_txt{
+	margin-left:20px;
+	font-family:"宋体";
+	font-size:14px;
+	line-height:22px;
+	color:#4b4d4e;
+	margin-bottom:20px;
+	}	
+.hot_line_num{
+	margin-left:20px;
+	font-family:Arial;
+	font-size:18px;
+	line-height:30px;
+	color:#84c225;
+	}
