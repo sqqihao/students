@@ -12,6 +12,7 @@
 [郭家祥](https://sqqihao.github.io/students/1704/郭家祥/index.html)
 [林杰](https://sqqihao.github.io/students/1704/林杰/林杰/1.首页/index.html)
 [高佳欣](https://sqqihao.github.io/students/1704/高佳欣-代码/main.html)
+[小妹组-沈郎乡](https://sqqihao.github.io/students/1704/小妹组-沈郎乡/html第二周作业/html/index.html)
 
 # 1705
 [陈佩璇](https://sqqihao.github.io/students/1705/陈佩璇/1-index.html)

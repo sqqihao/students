@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{text-decoration:none;}
+/*hander区开始*/
+#hander{
+height:125px;
+}
+.hander_inner{
+width:1200px;
+height:125px;
+margin:0 auto;
+}
+.hander_logo{
+	width:257px;
+	height:99px;
+	margin-top:26px;
+	float:left;
+	}
+.tabs{
+	padding-top:55px;
+	position:relative;
+	}
+.li2{
+	float:left;
+	color:#666;
+	text-align:center;
+	width:34px;
+	margin-right:32px;
+	cursor:pointer;
+	}
+.li2:hover{
+	border-bottom:2px solid #2d8f33;
+	}
+.li1{
+	float:left;
+	position:relative;
+	color:#666;
+	text-align:center;
+	width:136px;
+	}
+.li ul{
+	position:absolute;
+	left:0;
+	top:40px;
+	}
+.li1 ul{
+	position:absolute;
+	margin-top:10px;
+	}
+.li1 span{
+	padding:6px;
+	text-align:center;
+	width:136px;
+
+	}
+.li1:hover span{
+	color:#2d8f33;
+	cursor:pointer;
+	border-bottom:2px solid #2d8f33;
+	}
+.li1 ul{
+	display:none;
+	z-index:999;
+	}
+.li1:hover ul{
+	display:block;
+	}
+
+.li1 ul li{
+	padding:4px;
+	background:rgba(255,255,255,0.6);
+	font-size:16px;
+	text-align:center;
+	width:136px;
+	transition:0.5s;
+	}
+.li1 ul li:hover{
+	background:#e0e0e0;
+	color:#2d8f33;
+	cursor:pointer;
+	}
+.hander,.li1 a{
+	color:#666;
+	}
+.li3{
+	float:left;
+	position:relative;
+	color:#666;
+	text-align:center;
+	width:136px;
+	}
+.li3 span{
+	color:#2d8f33;
+	cursor:pointer;
+	border-bottom:2px solid #2d8f33;
+	}
+.li3 ul{
+	position:absolute;
+	margin-top:10px;
+	}
+.li3 span{
+	padding:6px;
+	text-align:center;
+	width:136px;
+
+	}
+.li3:hover span{
+	color:#2d8f33;
+	cursor:pointer;
+	border-bottom:2px solid #2d8f33;
+	}
+.li3 ul{
+	display:none;
+	z-index:999;
+	}
+.li3:hover ul{
+	display:block;
+	}
+
+.li3 ul li{
+	padding:4px;
+	background:rgba(255,255,255,0.6);
+	font-size:16px;
+	text-align:center;
+	width:136px;
+	transition:0.5s;
+	}
+.li3 ul li:hover{
+	background:#e0e0e0;
+	color:#2d8f33;
+	cursor:pointer;
+	}
+.hander,.li3 a{
+	color:#666;
+	}
+/*header导航结束*/
+/*header结束*/
+/*banner区*/
+#banner{
+	height:400px;
+	background:url(../images/images/cybs_banner_02.jpg) no-repeat top center;
+	}
+/*main区开始*/
+#main{
+	width:1200px;
+	margin:0 auto;
+	height:1212px;
+	margin-top:40px;
+	}
+/*main侧边导航开始*/
+.main_cbdh{
+	width:200px;
+	float:left;
+	cursor:pointer;
+	}
+.cbdh1{
+	background:#517714;
+	height:46px;
+	width:200px;
+	}
+.cbdh1 h4{
+	width:200px;
+	text-align:center;
+	line-height:46px;
+	color:#fff;
+	font-size:18px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	}
+.cbdh2{
+	background:url(../images/cbdh2_03.jpg) no-repeat top;
+	height:46px;
+	}
+.cbdh2 p{
+	width:200px;
+	text-align:
+	center;line-height:46px;
+	color:#fff;
+	font-size:14px;
+	font-family:"微软雅黑";
+	}
+.cbdh2 img{
+	margin-top:20px;
+	margin-left:15px;
+	width:8px;
+	height:7px;
+	position:absolute;
+	}
+.cbdh3{
+	border-bottom:1px solid #a8bb89;
+	height:46px;
+	}
+.cbdh3 img{
+	margin-top:20px;
+	margin-left:15px;
+	width:8px;
+	height:7px;
+	position:absolute;
+	}
+.cbdh3 p{
+	width:200px;
+	text-align:center;
+	line-height:46px;
+	color:#404040;
+	font-size:14px;
+	font-family:"微软雅黑";
+	}
+.cbdh4{
+	border-bottom:1px solid #a8bb89;
+	height:46px;
+	background-image:url(images/zdhjt.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	}
+.cbdh4 img{
+	margin-top:20px;
+	margin-left:15px;
+	width:8px;
+	height:7px;
+	position:absolute;
+	}
+.cbdh4 p{
+	width:200px;
+	text-align:center;
+	line-height:46px;
+	color:#404040;
+	font-size:14px;
+	font-family:"微软雅黑";
+	}
+.main_cp{
+	width:960px;
+	height:1212px;
+	float:right;
+	}
+/*main侧边导航结束*/
+/*main食谱内容第开始*/
+.cp1{
+	width:960px;
+	height:250px;
+	float:left;
+	}
+.ct{
+	float:left;
+	cursor:pointer;
+	}
+.cm{
+	font-size:20px;
+	font-family:"微软雅黑";
+	color:#517714;
+	background-color:#FFF;
+	float:left;
+	margin-left:316px;
+	width:103px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	}
+.xk{
+	width:885px;
+	height:173px;
+	border:1px solid #d2d2d2;
+	margin-top:24px;
+	margin-left:73px;
+	background-color:#FFF;
+	padding-top:52px;
+	}
+.xk p{
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#7d7d7d;
+	text-align:center;
+	line-height:30px;
+	}
+.xxzf p{
+	color:#517714;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:55px;
+	}
+.cp2{
+	width:960px;
+	height:250px;
+	float:left;
+	margin-top:40px;
+	}
+.ct{
+	float:left;
+	}
+.cm{
+	font-size:20px;
+	font-family:"微软雅黑";
+	color:#517714;
+	background-color:#FFF;
+	float:left;
+	margin-left:316px;
+	width:103px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	}
+.xk{
+	width:885px;
+	height:173px;
+	border:1px solid #d2d2d2;
+	margin-top:24px;
+	margin-left:73px;
+	background-color:#FFF;
+	padding-top:52px;
+	}
+.xk p{
+	font-size:16px;
+	font-family:"微软雅黑";
+	color:#7d7d7d;
+	text-align:center;
+	line-height:30px;
+	}
+.xxzf p{
+	color:#517714;
+	font-size:14px;
+	font-family:"微软雅黑";
+	line-height:55px;
+	}
+/*main食谱内容第开始*/
+/*main页码显示开始*/
+.fy{
+	width:273px;
+	height:50px;
+	float:right;
+	padding-top:40px;
+	cursor:pointer;
+	}
+.fy_sy{
+	width:39px;
+	height:20px;
+	background-color:#517714;
+	color:#FFF;
+	text-align:center;
+	float:left;
+	}
+.fy_syy{
+	width:49px;
+	height:20px;
+	background-color:#517714;
+	color:#FFF;
+	text-align:center;
+	float:left;
+	margin-left:12px;
+	}
+.fy_1{
+	width:39px;
+	height:20px;
+	color:##517714;
+	text-align:center;
+	float:left;
+	}
+.fy_2{
+	width:20px;
+	height:20px;
+	background-color:#517714;
+	color:#FFF;
+	text-align:center;
+	float:left;
+	}
+.fy_wy{
+	width:39px;
+	height:20px;
+	background-color:#517714;
+	color:#FFF;
+	text-align:center;
+	float:left;
+	margin-left:12px;
+	}
+/*main页码显示结束*/
+/*main区结束*/
+/*下面是footer区*/
+#footer{
+	height:100px;
+	background-color:#517714;
+	}
+.footer_inner{
+	width:1200px;
+	margin:0 auto;
+	}
+.footer_inner ul{
+	line-height:26px;
+	color:#fff;
+	font-size:12px;
+	font-family:"微软雅黑";
+	text-align:center;
+	padding-top:12px;
+	}
+
+
